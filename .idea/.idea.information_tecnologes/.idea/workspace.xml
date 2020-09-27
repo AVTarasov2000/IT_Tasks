@@ -19,76 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="554aa1b8-da8f-4286-920e-dc799b17a46d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.information_tecnologes/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.information_tecnologes/.idea/contentModel.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.information_tecnologes/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.information_tecnologes/.idea/indexLayout.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.information_tecnologes/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.information_tecnologes/.idea/projectSettingsUpdater.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.information_tecnologes/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.information_tecnologes/riderModule.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/information_tecnologes.sln" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/information_tecnologes.sln.DotSettings.user" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/NUnit.3.5.0/.signature.p7s" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/NUnit.3.5.0/CHANGES.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/NUnit.3.5.0/LICENSE.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/NUnit.3.5.0/NOTICES.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/NUnit.3.5.0/NUnit.3.5.0.nupkg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/NUnit.3.5.0/lib/dotnet/nunit.framework.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/NUnit.3.5.0/lib/dotnet/nunit.framework.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/NUnit.3.5.0/lib/net20/NUnit.System.Linq.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/NUnit.3.5.0/lib/net20/nunit.framework.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/NUnit.3.5.0/lib/net20/nunit.framework.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/NUnit.3.5.0/lib/net35/nunit.framework.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/NUnit.3.5.0/lib/net35/nunit.framework.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/NUnit.3.5.0/lib/net40/nunit.framework.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/NUnit.3.5.0/lib/net40/nunit.framework.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/NUnit.3.5.0/lib/net45/nunit.framework.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/NUnit.3.5.0/lib/net45/nunit.framework.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/NUnit.3.5.0/lib/portable-net45+win8+wp8+wpa81+Xamarin.Mac+MonoAndroid10+MonoTouch10+Xamarin.iOS10/nunit.framework.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/NUnit.3.5.0/lib/portable-net45+win8+wp8+wpa81+Xamarin.Mac+MonoAndroid10+MonoTouch10+Xamarin.iOS10/nunit.framework.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task1/Program.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task1/Properties/AssemblyInfo.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task1/bin/Debug/task1.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task1/bin/Debug/task1.pdb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task1/obj/Debug/.NETFramework,Version=v4.8.AssemblyAttributes.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task1/obj/Debug/task1.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task1/obj/Debug/task1.csproj.FileListAbsolute.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task1/obj/Debug/task1.csprojAssemblyReference.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task1/obj/Debug/task1.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task1/obj/Debug/task1.pdb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task1/task1.csproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task2/Program.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task2/Properties/AssemblyInfo.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task2/TestText.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task2/bin/Debug/task2.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task2/bin/Debug/task2.pdb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task2/obj/Debug/.NETFramework,Version=v4.8.AssemblyAttributes.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task2/obj/Debug/task2.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task2/obj/Debug/task2.csproj.FileListAbsolute.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task2/obj/Debug/task2.csprojAssemblyReference.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task2/obj/Debug/task2.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task2/obj/Debug/task2.pdb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task2/task2.csproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task3/Program.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task3/Properties/AssemblyInfo.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task3/Train.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task3/car/BaggageCar.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task3/car/Car.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task3/car/passangers/FirstClassCar.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task3/car/passangers/PassengerCar.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task3/car/passangers/PremiumClassCar.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task3/car/passangers/SecondClassCar.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task3/obj/Debug/.NETFramework,Version=v4.8.AssemblyAttributes.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task3/task3.csproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task4/Hous.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task4/Hous2.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task4/Program.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task4/Properties/AssemblyInfo.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task4/obj/Debug/.NETFramework,Version=v4.8.AssemblyAttributes.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task4/task4.csproj" afterDir="false" />
-    </list>
+    <list default="true" id="554aa1b8-da8f-4286-920e-dc799b17a46d" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -272,6 +203,7 @@
       <workItem from="1601115236454" duration="387000" />
       <workItem from="1601123176722" duration="2565000" />
       <workItem from="1601193410526" duration="5793000" />
+      <workItem from="1601226594692" duration="376000" />
     </task>
     <servers />
   </component>
@@ -391,5 +323,9 @@
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="149" y="39" key="SettingsEditor/0.0.1280.800@0.0.1280.800" timestamp="1601044291578" />
+    <state x="240" y="140" key="Vcs.Push.Dialog.v2" timestamp="1601227018615">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="240" y="140" key="Vcs.Push.Dialog.v2/0.0.1280.800@0.0.1280.800" timestamp="1601227018615" />
   </component>
 </project>
