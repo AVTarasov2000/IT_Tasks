@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="$USER_HOME$/Library/Caches/JetBrains/Rider2020.2/extResources" t="IncludeRecursive" />
+    <e p="$USER_HOME$/Library/Caches/JetBrains/Rider2020.2/resharper-host/local/Transient/Rider/v202/SolutionCaches/_information_tecnologes.1157624487.00" t="ExcludeRecursive" />
+    <e p="$PROJECT_DIR$" t="IncludeFlat">
+      <e p="information_tecnologes.sln" t="IncludeFlat" />
+      <e p="packages" t="ExcludeRecursive" />
+      <e p="task1" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="obj" t="ExcludeRecursive" />
+        <e p="Program.cs" t="Include" />
+        <e p="Properties" t="Include">
+          <e p="AssemblyInfo.cs" t="Include" />
+        </e>
+        <e p="task1.csproj" t="IncludeRecursive" />
+      </e>
+      <e p="task2" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="obj" t="ExcludeRecursive" />
+        <e p="Program.cs" t="Include" />
+        <e p="Properties" t="Include">
+          <e p="AssemblyInfo.cs" t="Include" />
+        </e>
+        <e p="task2.csproj" t="IncludeRecursive" />
+        <e p="TestText.txt" t="Include" />
+      </e>
+      <e p="task3" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="car" t="Include">
+          <e p="BaggageCar.cs" t="Include" />
+          <e p="Car.cs" t="Include" />
+          <e p="passangers" t="Include">
+            <e p="FirstClassCar.cs" t="Include" />
+            <e p="PassengerCar.cs" t="Include" />
+            <e p="PremiumClassCar.cs" t="Include" />
+            <e p="SecondClassCar.cs" t="Include" />
+          </e>
+        </e>
+        <e p="obj" t="ExcludeRecursive" />
+        <e p="Program.cs" t="Include" />
+        <e p="Properties" t="Include">
+          <e p="AssemblyInfo.cs" t="Include" />
+        </e>
+        <e p="task3.csproj" t="IncludeRecursive" />
+        <e p="Train.cs" t="Include" />
+      </e>
+      <e p="task4" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Hous.cs" t="Include" />
+        <e p="Hous2.cs" t="Include" />
+        <e p="obj" t="ExcludeRecursive" />
+        <e p="Program.cs" t="Include" />
+        <e p="Properties" t="Include">
+          <e p="AssemblyInfo.cs" t="Include" />
+        </e>
+        <e p="task4.csproj" t="IncludeRecursive" />
+      </e>
+    </e>
+  </component>
+</project>

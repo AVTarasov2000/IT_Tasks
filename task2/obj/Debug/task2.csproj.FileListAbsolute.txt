@@ -1,0 +1,6 @@
+/Users/andrejtarasov/RiderProjects/information_tecnologes/task2/bin/Debug/task2.exe
+/Users/andrejtarasov/RiderProjects/information_tecnologes/task2/bin/Debug/task2.pdb
+/Users/andrejtarasov/RiderProjects/information_tecnologes/task2/obj/Debug/task2.csprojAssemblyReference.cache
+/Users/andrejtarasov/RiderProjects/information_tecnologes/task2/obj/Debug/task2.csproj.CoreCompileInputs.cache
+/Users/andrejtarasov/RiderProjects/information_tecnologes/task2/obj/Debug/task2.exe
+/Users/andrejtarasov/RiderProjects/information_tecnologes/task2/obj/Debug/task2.pdb
