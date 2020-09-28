@@ -1,0 +1,5 @@
+C:\Users\andrey\RiderProjects\IT_Tasks\task4\bin\Debug\task4.exe
+C:\Users\andrey\RiderProjects\IT_Tasks\task4\bin\Debug\task4.pdb
+C:\Users\andrey\RiderProjects\IT_Tasks\task4\obj\Debug\task4.exe
+C:\Users\andrey\RiderProjects\IT_Tasks\task4\obj\Debug\task4.pdb
+C:\Users\andrey\RiderProjects\IT_Tasks\task4\obj\Debug\task4.csprojAssemblyReference.cache

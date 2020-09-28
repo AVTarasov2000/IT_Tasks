@@ -19,37 +19,30 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="554aa1b8-da8f-4286-920e-dc799b17a46d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.information_tecnologes/.idea/.name" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.information_tecnologes/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task2Forms/App.config" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task2Forms/Form1.Designer.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task2Forms/Form1.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task2Forms/Program.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task2Forms/Properties/AssemblyInfo.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task2Forms/Properties/Resources.Designer.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task2Forms/Properties/Resources.resx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task2Forms/Properties/Settings.Designer.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task2Forms/Properties/Settings.settings" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task2Forms/obj/Debug/task2Forms.csprojAssemblyReference.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task2Forms/task2Forms.csproj" afterDir="false" />
+    <list default="true" id="554aa1b8-da8f-4286-920e-dc799b17a46d" name="Default Changelist" comment="task2Forms">
+      <change afterPath="$PROJECT_DIR$/task4Forms/App.config" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task4Forms/Form1.Designer.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task4Forms/Form1.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task4Forms/Form1.resx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task4Forms/Program.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task4Forms/Properties/AssemblyInfo.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task4Forms/Properties/Resources.Designer.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task4Forms/Properties/Resources.resx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task4Forms/Properties/Settings.Designer.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task4Forms/Properties/Settings.settings" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task4Forms/bin/Debug/task4Forms.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task4Forms/bin/Debug/task4Forms.exe.config" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task4Forms/bin/Debug/task4Forms.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task4Forms/obj/Debug/task4Forms.Properties.Resources.resources" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task4Forms/obj/Debug/task4Forms.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task4Forms/obj/Debug/task4Forms.csproj.GenerateResource.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task4Forms/obj/Debug/task4Forms.csprojAssemblyReference.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task4Forms/obj/Debug/task4Forms.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task4Forms/obj/Debug/task4Forms.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task4Forms/task4Forms.csproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.information_tecnologes/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.information_tecnologes/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.information_tecnologes/.idea/projectSettingsUpdater.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.information_tecnologes/.idea/projectSettingsUpdater.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.information_tecnologes/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.information_tecnologes/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/information_tecnologes.sln" beforeDir="false" afterPath="$PROJECT_DIR$/information_tecnologes.sln" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task1/bin/Debug/task1.exe" beforeDir="false" afterPath="$PROJECT_DIR$/task1/bin/Debug/task1.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task1/bin/Debug/task1.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/task1/bin/Debug/task1.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task1/obj/Debug/task1.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/task1/obj/Debug/task1.csproj.FileListAbsolute.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task1/obj/Debug/task1.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/task1/obj/Debug/task1.csprojAssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task1/obj/Debug/task1.exe" beforeDir="false" afterPath="$PROJECT_DIR$/task1/obj/Debug/task1.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task1/obj/Debug/task1.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/task1/obj/Debug/task1.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task2/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/task2/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task2/bin/Debug/task2.exe" beforeDir="false" afterPath="$PROJECT_DIR$/task2/bin/Debug/task2.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task2/bin/Debug/task2.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/task2/bin/Debug/task2.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task2/obj/Debug/task2.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/task2/obj/Debug/task2.csproj.FileListAbsolute.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task2/obj/Debug/task2.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/task2/obj/Debug/task2.csprojAssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task2/obj/Debug/task2.exe" beforeDir="false" afterPath="$PROJECT_DIR$/task2/obj/Debug/task2.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task2/obj/Debug/task2.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/task2/obj/Debug/task2.pdb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,11 +53,17 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/task4/Program.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/task4/Hous2.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/task2/Program.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/F5710885-5FA8-448B-ABCB-DC0D657B8A58/8d/4223ccdc/DataGridViewColumnCollection.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/task2Forms/Form1.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/task2Forms/Form1.Designer.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/task2Forms/Program.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/task4Forms/Program.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/task4Forms/Form1.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/task4Forms/Form1.Designer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/task4/Hous.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -108,6 +107,8 @@
         <option value="$PROJECT_DIR$/task2Form/Class1.cs" />
         <option value="$PROJECT_DIR$/task2/Program.cs" />
         <option value="$PROJECT_DIR$/task2Forms/Form1.cs" />
+        <option value="$PROJECT_DIR$/task4Forms/Form1.Designer.cs" />
+        <option value="$PROJECT_DIR$/task4Forms/Form1.cs" />
       </list>
     </option>
   </component>
@@ -129,7 +130,7 @@
     <property name="settings.editor.selected.configurable" value="RiderXamarinAppleFileTemplatesOptionPageId" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
-  <component name="RunManager" selected=".NET Project.task2Forms">
+  <component name="RunManager" selected=".NET Project.task4Forms">
     <configuration name="task1" type="DotNetProject" factoryName=".NET Project">
       <option name="EXE_PATH" value="" />
       <option name="PROGRAM_PARAMETERS" value="" />
@@ -220,6 +221,24 @@
         <option name="Build" enabled="true" />
       </method>
     </configuration>
+    <configuration name="task4Forms" type="DotNetProject" factoryName=".NET Project" temporary="true">
+      <option name="EXE_PATH" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/task4Forms/task4Forms.csproj" />
+      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
+      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
+      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
+      <option name="PROJECT_KIND" value="Console" />
+      <option name="PROJECT_TFM" value=".NETFramework,Version=v4.8" />
+      <method v="2">
+        <option name="Build" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MacOSApp1" type="XamarinMacProject" factoryName="Xamarin.Mac" singleton="false">
       <option name="PROJECT_PATH" value="$PROJECT_DIR$/MacOSApp1/MacOSApp1.csproj" />
       <option name="PROGRAM_PARAMETERS" value="" />
@@ -249,6 +268,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue=".NET Project.task4Forms" />
         <item itemvalue=".NET Project.task2Forms" />
       </list>
     </recent_temporary>
@@ -271,8 +291,16 @@
       <workItem from="1601123176722" duration="2565000" />
       <workItem from="1601193410526" duration="5793000" />
       <workItem from="1601226594692" duration="376000" />
-      <workItem from="1601322363922" duration="2345000" />
+      <workItem from="1601322363922" duration="3962000" />
     </task>
+    <task id="LOCAL-00001" summary="task2Forms">
+      <created>1601324841721</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1601324841721</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -295,30 +323,32 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+    <MESSAGE value="task2Forms" />
+    <option name="LAST_COMMIT_MESSAGE" value="task2Forms" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1238" height="190" key="GridCell.Tab.0.bottom" timestamp="1601324811262">
+    <state width="1238" height="88" key="GridCell.Tab.0.bottom" timestamp="1601326627710">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
-    <state width="1238" height="190" key="GridCell.Tab.0.bottom/0.0.1280.760@0.0.1280.760" timestamp="1601324811262" />
+    <state width="1238" height="88" key="GridCell.Tab.0.bottom/0.0.1280.760@0.0.1280.760" timestamp="1601326627710" />
     <state width="1238" height="212" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1601226461363" />
     <state width="1238" height="212" key="GridCell.Tab.0.bottom/0.23.1280.737@0.23.1280.737" timestamp="1601201017990" />
-    <state width="1238" height="190" key="GridCell.Tab.0.center" timestamp="1601324811262">
+    <state width="1238" height="88" key="GridCell.Tab.0.center" timestamp="1601326627710">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
-    <state width="1238" height="190" key="GridCell.Tab.0.center/0.0.1280.760@0.0.1280.760" timestamp="1601324811262" />
+    <state width="1238" height="88" key="GridCell.Tab.0.center/0.0.1280.760@0.0.1280.760" timestamp="1601326627710" />
     <state width="1238" height="212" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1601226461361" />
     <state width="1238" height="212" key="GridCell.Tab.0.center/0.23.1280.737@0.23.1280.737" timestamp="1601201017988" />
-    <state width="1238" height="190" key="GridCell.Tab.0.left" timestamp="1601324811262">
+    <state width="1238" height="88" key="GridCell.Tab.0.left" timestamp="1601326627710">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
-    <state width="1238" height="190" key="GridCell.Tab.0.left/0.0.1280.760@0.0.1280.760" timestamp="1601324811262" />
+    <state width="1238" height="88" key="GridCell.Tab.0.left/0.0.1280.760@0.0.1280.760" timestamp="1601326627710" />
     <state width="1238" height="212" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1601226461360" />
     <state width="1238" height="212" key="GridCell.Tab.0.left/0.23.1280.737@0.23.1280.737" timestamp="1601201017986" />
-    <state width="1238" height="190" key="GridCell.Tab.0.right" timestamp="1601324811262">
+    <state width="1238" height="88" key="GridCell.Tab.0.right" timestamp="1601326627710">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
-    <state width="1238" height="190" key="GridCell.Tab.0.right/0.0.1280.760@0.0.1280.760" timestamp="1601324811262" />
+    <state width="1238" height="88" key="GridCell.Tab.0.right/0.0.1280.760@0.0.1280.760" timestamp="1601326627710" />
     <state width="1238" height="212" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1601226461362" />
     <state width="1238" height="212" key="GridCell.Tab.0.right/0.23.1280.737@0.23.1280.737" timestamp="1601201017989" />
     <state width="1238" height="236" key="GridCell.Tab.1.bottom" timestamp="1601324427243">
@@ -409,10 +439,10 @@
       <screen x="0" y="0" width="1280" height="760" />
     </state>
     <state width="1238" height="236" key="GridCell.Tab.4.right/0.0.1280.760@0.0.1280.760" timestamp="1601324427243" />
-    <state x="240" y="96" key="Rider.ProjectTemplateDialog.Size" timestamp="1601323076318">
+    <state x="240" y="96" key="Rider.ProjectTemplateDialog.Size" timestamp="1601324967440">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
-    <state x="240" y="96" key="Rider.ProjectTemplateDialog.Size/0.0.1280.760@0.0.1280.760" timestamp="1601323076318" />
+    <state x="240" y="96" key="Rider.ProjectTemplateDialog.Size/0.0.1280.760@0.0.1280.760" timestamp="1601324967440" />
     <state x="240" y="116" key="Rider.ProjectTemplateDialog.Size/0.0.1280.800@0.0.1280.800" timestamp="1601124582401" />
     <state x="240" y="130" key="Rider.ProjectTemplateDialog.Size/0.23.1280.736@0.23.1280.736" timestamp="1600764030120" />
     <state x="240" y="116" key="Rider.ProjectTemplateDialog.Size/0.23.1280.737@0.23.1280.737" timestamp="1601199094042" />

@@ -1,0 +1,12 @@
+C:\Users\andrey\RiderProjects\IT_Tasks\task2Forms\bin\Debug\task2Forms.exe.config
+C:\Users\andrey\RiderProjects\IT_Tasks\task2Forms\bin\Debug\task2Forms.exe
+C:\Users\andrey\RiderProjects\IT_Tasks\task2Forms\bin\Debug\task2Forms.pdb
+C:\Users\andrey\RiderProjects\IT_Tasks\task2Forms\obj\Debug\task2Forms.csprojAssemblyReference.cache
+C:\Users\andrey\RiderProjects\IT_Tasks\task2Forms\obj\Debug\task2Forms.Properties.Resources.resources
+C:\Users\andrey\RiderProjects\IT_Tasks\task2Forms\obj\Debug\task2Forms.csproj.GenerateResource.cache
+C:\Users\andrey\RiderProjects\IT_Tasks\task2Forms\obj\Debug\task2Forms.exe
+C:\Users\andrey\RiderProjects\IT_Tasks\task2Forms\obj\Debug\task2Forms.pdb
+C:\Users\andrey\RiderProjects\IT_Tasks\task2Forms\obj\Debug\task2Forms.Form1.resources
+C:\Users\andrey\RiderProjects\IT_Tasks\task2Forms\bin\Debug\task2.exe
+C:\Users\andrey\RiderProjects\IT_Tasks\task2Forms\bin\Debug\task2.pdb
+C:\Users\andrey\RiderProjects\IT_Tasks\task2Forms\obj\Debug\task2Forms.csproj.CopyComplete
