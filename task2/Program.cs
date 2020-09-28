@@ -5,7 +5,7 @@ using System.Linq;
 
 namespace task2
 {
-    internal class Program
+    public class Program
     {
         public static void Main(string[] args)
         {
