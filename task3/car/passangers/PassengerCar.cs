@@ -7,6 +7,7 @@ namespace task3
       
         public PassengerCar(int number, int maxWeight, int baggageCount, int peopleCount) : base(number, maxWeight, baggageCount)
         {
+            prestige = 2;
             this.peopleCount = peopleCount;
         }
 

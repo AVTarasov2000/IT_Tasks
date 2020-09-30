@@ -1,3 +1,4 @@
+using System;
 using System.Collections.Generic;
 using System.Linq;
 
@@ -12,14 +13,28 @@ namespace task3
         {
         }
 
-        public void AddPassengerCar(Car car)
+        public void AddCar(Car car)
         {
+            car.Number = lastCarNumber++;
             _cars.Add(car);
         }
         
         public void AddNewPassengerCar(int maxWeight, int baggageCount, int passengerCount)
         {
             _cars.Add(new PassengerCar(lastCarNumber++,maxWeight,baggageCount,passengerCount));
+        }
+        
+        public void AddNewSecondClassCar(int maxWeight, int baggageCount, int passengerCount)
+        {
+            _cars.Add(new SecondClassCar(lastCarNumber++,maxWeight,baggageCount,passengerCount));
+        }
+        public void AddNewFirstClassCar(int maxWeight, int baggageCount, int passengerCount)
+        {
+            _cars.Add(new FirstClassCar(lastCarNumber++,maxWeight,baggageCount,passengerCount));
+        }
+        public void AddNewPremiumCar(int maxWeight, int baggageCount, int passengerCount)
+        {
+            _cars.Add(new PremiumClassCar(lastCarNumber++,maxWeight,baggageCount,passengerCount));
         }
 
         public void AddNewBaggageCar(int maxWeight, int baggageCount)
@@ -44,7 +59,7 @@ namespace task3
             int res = 0;
             foreach (Car car in _cars)
             {
-                if(car is PassengerCar)
+                if(car is BaggageCar)
                     res += ((BaggageCar)car).BaggageCount;
             }
 
@@ -53,20 +68,18 @@ namespace task3
 
         public List<Car> GetCarsWithPeopleCountBetween (int max, int min)
         {
-            List<Car> res = _cars.FindAll(car => (car is PassengerCar &&
-                                  ((PassengerCar) car).PeopleCount>min &&
-                                  ((PassengerCar) car).PeopleCount<max)).ToList();
+            List<Car> res = _cars.FindAll(car => (car is PassengerCar && ((PassengerCar) car).PeopleCount > min && ((PassengerCar) car).PeopleCount < max)).ToList();
             return res;
         }
 
-        public void GetSortedByPrestige()
+        public List<Car> GetSortedByPrestige()
         {
-            _cars.OrderBy(car => car.Prestige);
+            return _cars.OrderBy(car => car.Prestige).ToList();
         }
         
-        public void GetSortedByNumber()
+        public List<Car> GetSortedByNumber()
         {
-            _cars.OrderBy(car => car.Number);
+            return _cars.OrderBy(car => car.Number).ToList();
         }
         
         

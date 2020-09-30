@@ -9,3 +9,4 @@ C:\Users\andrey\RiderProjects\IT_Tasks\task2\bin\Debug\task2.pdb
 C:\Users\andrey\RiderProjects\IT_Tasks\task2\obj\Debug\task2.csprojAssemblyReference.cache
 C:\Users\andrey\RiderProjects\IT_Tasks\task2\obj\Debug\task2.exe
 C:\Users\andrey\RiderProjects\IT_Tasks\task2\obj\Debug\task2.pdb
+C:\Users\Andrey\RiderProjects\IT_Tasks\task2\obj\Debug\task2.csproj.CoreCompileInputs.cache

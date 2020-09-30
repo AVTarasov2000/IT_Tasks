@@ -10,3 +10,4 @@ C:\Users\andrey\RiderProjects\IT_Tasks\task4Forms\bin\Debug\task4.exe
 C:\Users\andrey\RiderProjects\IT_Tasks\task4Forms\bin\Debug\task4.pdb
 C:\Users\andrey\RiderProjects\IT_Tasks\task4Forms\obj\Debug\task4Forms.Form1.resources
 C:\Users\andrey\RiderProjects\IT_Tasks\task4Forms\obj\Debug\task4Forms.csproj.CopyComplete
+C:\Users\Andrey\RiderProjects\IT_Tasks\task4Forms\obj\Debug\task4Forms.csproj.CoreCompileInputs.cache

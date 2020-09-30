@@ -26,6 +26,10 @@ namespace task3
             get => number;
             set => number = value;
         }
-        
+
+        public override string ToString()
+        {
+            return "-{number: " + number+"| prestige: "+prestige+"}";
+        }
     }
 }
