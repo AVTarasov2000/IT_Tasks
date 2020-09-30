@@ -1,0 +1,13 @@
+C:\Users\Andrey\RiderProjects\IT_Tasks\task3Forms\bin\Debug\task3Forms.exe.config
+C:\Users\Andrey\RiderProjects\IT_Tasks\task3Forms\bin\Debug\task3Forms.exe
+C:\Users\Andrey\RiderProjects\IT_Tasks\task3Forms\bin\Debug\task3Forms.pdb
+C:\Users\Andrey\RiderProjects\IT_Tasks\task3Forms\obj\Debug\task3Forms.csprojAssemblyReference.cache
+C:\Users\Andrey\RiderProjects\IT_Tasks\task3Forms\obj\Debug\task3Forms.Properties.Resources.resources
+C:\Users\Andrey\RiderProjects\IT_Tasks\task3Forms\obj\Debug\task3Forms.csproj.GenerateResource.cache
+C:\Users\Andrey\RiderProjects\IT_Tasks\task3Forms\obj\Debug\task3Forms.csproj.CoreCompileInputs.cache
+C:\Users\Andrey\RiderProjects\IT_Tasks\task3Forms\obj\Debug\task3Forms.exe
+C:\Users\Andrey\RiderProjects\IT_Tasks\task3Forms\obj\Debug\task3Forms.pdb
+C:\Users\Andrey\RiderProjects\IT_Tasks\task3Forms\bin\Debug\task3.exe
+C:\Users\Andrey\RiderProjects\IT_Tasks\task3Forms\bin\Debug\task3.pdb
+C:\Users\Andrey\RiderProjects\IT_Tasks\task3Forms\obj\Debug\task3Forms.Form1.resources
+C:\Users\Andrey\RiderProjects\IT_Tasks\task3Forms\obj\Debug\task3Forms.csproj.CopyComplete
