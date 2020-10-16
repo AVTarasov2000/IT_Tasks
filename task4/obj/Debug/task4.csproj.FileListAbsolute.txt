@@ -3,4 +3,6 @@ C:\Users\andrey\RiderProjects\IT_Tasks\task4\bin\Debug\task4.pdb
 C:\Users\andrey\RiderProjects\IT_Tasks\task4\obj\Debug\task4.exe
 C:\Users\andrey\RiderProjects\IT_Tasks\task4\obj\Debug\task4.pdb
 C:\Users\andrey\RiderProjects\IT_Tasks\task4\obj\Debug\task4.csprojAssemblyReference.cache
-C:\Users\Andrey\RiderProjects\IT_Tasks\task4\obj\Debug\task4.csproj.CoreCompileInputs.cache
+C:\Users\andrey\RiderProjects\IT_Tasks\task4\bin\Debug\task4Library.dll
+C:\Users\andrey\RiderProjects\IT_Tasks\task4\bin\Debug\task4Library.pdb
+C:\Users\andrey\RiderProjects\IT_Tasks\task4\obj\Debug\task4.csproj.CopyComplete

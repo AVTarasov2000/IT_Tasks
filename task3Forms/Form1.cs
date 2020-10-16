@@ -20,40 +20,29 @@ namespace task3Forms
             InitializeComponent();
         }
 
-        private void addPassengerCarButton_Click(object sender, EventArgs e)
-        {
-            Train.AddNewPassengerCar((int) numericMaxWeight.Value, (int) baggageCount.Value, (int) numericPeopleCount.Value);
-            setTrain();
-        }
-
-        private void addBaggageCarButton_Click(object sender, EventArgs e)
-        {
-            Train.AddNewBaggageCar((int) numericMaxWeight.Value, (int) baggageCount.Value);
-            setTrain();
-        }
-
+        
         private void addPremiumCassButton_Click(object sender, EventArgs e)
         {
-            Train.AddNewPremiumCar((int) numericMaxWeight.Value, (int) baggageCount.Value, (int) numericPeopleCount.Value);
+            Train.AddNewPremiumCar((int) baggageCount.Value, (int) numericPeopleCount.Value);
             setTrain();
         }
 
         private void addFirstClassButton_Click(object sender, EventArgs e)
         {
-            Train.AddNewFirstClassCar((int) numericMaxWeight.Value, (int) baggageCount.Value, (int) numericPeopleCount.Value);
+            Train.AddNewFirstClassCar((int) baggageCount.Value, (int) numericPeopleCount.Value);
             setTrain();
         }
 
         private void addSecondClassButton_Click(object sender, EventArgs e)
         {
-            Train.AddNewSecondClassCar((int) numericMaxWeight.Value, (int) baggageCount.Value, (int) numericPeopleCount.Value);
+            Train.AddNewSecondClassCar((int) baggageCount.Value, (int) numericPeopleCount.Value);
             setTrain();
         }
 
         private void sort_Click(object sender, EventArgs e)
         {
             String res = "";
-            foreach (Car car in Train.GetSortedByPrestige())
+            foreach (PassengerCar car in Train.GetSortedByPrestige())
             {
                 res += car.ToString();
             }
@@ -63,7 +52,7 @@ namespace task3Forms
         private void getByPeopleBetween_Click(object sender, EventArgs e)
         {
             String res = "";
-            foreach (Car car in Train.GetCarsWithPeopleCountBetween((int) numericMax.Value, (int) numericMin.Value))
+            foreach (PassengerCar car in Train.GetCarsWithPeopleCountBetween((int) numericMax.Value, (int) numericMin.Value))
             {
                 res += car.ToString();
             }
@@ -74,7 +63,7 @@ namespace task3Forms
         private void setTrain()
         {
             String res = "";
-            foreach (Car car in Train.GetSortedByNumber())
+            foreach (PassengerCar car in Train.GetSortedByNumber())
             {
                 res += car.ToString();
             }

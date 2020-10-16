@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ContentModelStore">
-    <e p="C:\Users\andrey\AppData\local\JetBrains\Rider2020.1\extResources" t="IncludeRecursive" />
-    <e p="C:\Users\andrey\AppData\local\JetBrains\Rider2020.1\resharper-host\local\Transient\ReSharperHost\v201\SolutionCaches\_information_tecnologes.570876204.00" t="ExcludeRecursive" />
+    <e p="C:\Users\andrey\.Rider2019.3\config\scratches" t="IncludeRecursive" />
+    <e p="C:\Users\andrey\.Rider2019.3\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\andrey\.Rider2019.3\system\resharper-host\local\Transient\ReSharperHost\v193\SolutionCaches\_information_tecnologes.570876204.00" t="ExcludeRecursive" />
     <e p="C:\Users\andrey\RiderProjects\IT_Tasks" t="IncludeFlat">
       <e p="information_tecnologes.sln" t="IncludeFlat" />
       <e p="packages" t="ExcludeRecursive" />
@@ -42,25 +43,14 @@
         </e>
         <e p="task2Forms.csproj" t="IncludeRecursive" />
       </e>
-      <e p="task3" t="IncludeRecursive">
+      <e p="task2Library" t="IncludeRecursive">
         <e p="bin" t="ExcludeRecursive" />
-        <e p="car" t="Include">
-          <e p="BaggageCar.cs" t="Include" />
-          <e p="Car.cs" t="Include" />
-          <e p="passangers" t="Include">
-            <e p="FirstClassCar.cs" t="Include" />
-            <e p="PassengerCar.cs" t="Include" />
-            <e p="PremiumClassCar.cs" t="Include" />
-            <e p="SecondClassCar.cs" t="Include" />
-          </e>
-        </e>
+        <e p="File.cs" t="Include" />
         <e p="obj" t="ExcludeRecursive" />
-        <e p="Program.cs" t="Include" />
         <e p="Properties" t="Include">
           <e p="AssemblyInfo.cs" t="Include" />
         </e>
-        <e p="task3.csproj" t="IncludeRecursive" />
-        <e p="Train.cs" t="Include" />
+        <e p="task2Library.csproj" t="IncludeRecursive" />
       </e>
       <e p="task3Forms" t="IncludeRecursive">
         <e p="App.config" t="Include" />
@@ -79,10 +69,23 @@
         </e>
         <e p="task3Forms.csproj" t="IncludeRecursive" />
       </e>
+      <e p="task3Library" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="car" t="Include">
+          <e p="FirstClassCar.cs" t="Include" />
+          <e p="PassengerCar.cs" t="Include" />
+          <e p="PremiumClassCar.cs" t="Include" />
+          <e p="SecondClassCar.cs" t="Include" />
+        </e>
+        <e p="obj" t="ExcludeRecursive" />
+        <e p="Properties" t="Include">
+          <e p="AssemblyInfo.cs" t="Include" />
+        </e>
+        <e p="task3Library.csproj" t="IncludeRecursive" />
+        <e p="Train.cs" t="Include" />
+      </e>
       <e p="task4" t="IncludeRecursive">
         <e p="bin" t="ExcludeRecursive" />
-        <e p="Hous.cs" t="Include" />
-        <e p="Hous2.cs" t="Include" />
         <e p="obj" t="ExcludeRecursive" />
         <e p="Program.cs" t="Include" />
         <e p="Properties" t="Include">
@@ -106,6 +109,16 @@
           <e p="Settings.settings" t="Include" />
         </e>
         <e p="task4Forms.csproj" t="IncludeRecursive" />
+      </e>
+      <e p="task4Library" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Hous.cs" t="Include" />
+        <e p="Hous2.cs" t="Include" />
+        <e p="obj" t="ExcludeRecursive" />
+        <e p="Properties" t="Include">
+          <e p="AssemblyInfo.cs" t="Include" />
+        </e>
+        <e p="task4Library.csproj" t="IncludeRecursive" />
       </e>
     </e>
   </component>

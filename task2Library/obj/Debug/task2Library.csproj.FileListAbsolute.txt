@@ -1,0 +1,5 @@
+C:\Users\andrey\RiderProjects\IT_Tasks\task2Library\bin\Debug\task2Library.dll
+C:\Users\andrey\RiderProjects\IT_Tasks\task2Library\bin\Debug\task2Library.pdb
+C:\Users\andrey\RiderProjects\IT_Tasks\task2Library\obj\Debug\task2Library.csprojAssemblyReference.cache
+C:\Users\andrey\RiderProjects\IT_Tasks\task2Library\obj\Debug\task2Library.dll
+C:\Users\andrey\RiderProjects\IT_Tasks\task2Library\obj\Debug\task2Library.pdb

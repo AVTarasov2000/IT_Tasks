@@ -15,8 +15,8 @@ namespace task1
             int[,] matrix = GetMatrix(w, h);
 
             int[] res = Task(h, w, matrix);
-            
-            Console.Write("count:"+res[0]+"|summ:"+res[1]);
+
+            Console.Write($"count: {res[0]}|summ: {res[1]}");
 
 
         }

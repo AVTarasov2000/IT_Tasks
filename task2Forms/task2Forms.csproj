@@ -80,9 +80,9 @@
         <None Include="App.config" />
     </ItemGroup>
     <ItemGroup>
-      <ProjectReference Include="..\task2\task2.csproj">
-        <Project>{9ae850f5-370e-4345-a013-fb445781e423}</Project>
-        <Name>task2</Name>
+      <ProjectReference Include="..\task2Library\task2Library.csproj">
+        <Project>{5c14cb93-6aad-4154-98a4-1aa0962d28a3}</Project>
+        <Name>task2Library</Name>
       </ProjectReference>
     </ItemGroup>
     <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

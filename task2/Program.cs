@@ -9,7 +9,7 @@ namespace task2
     {
         public static void Main(string[] args)
         {
-            string path = @"/Users/andrejtarasov/RiderProjects/information_tecnologes/task2/TestText.txt";
+            string path = @"C:\Users\andrey\RiderProjects\IT_Tasks\task2\TestText.txt";
 
             Dictionary<int, int> result = task2(getFileContent(path));
 
