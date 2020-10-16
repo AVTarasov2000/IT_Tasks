@@ -29,16 +29,20 @@ namespace task4Forms
             Hous.BildYear = (int) numericHous1.Value;
             Hous.CountOfFlats = (int) numericHous2.Value;
             Hous.NumberOfHous = (int) numericHous3.Value;
-            res1.Text = Hous.Q((int) yearNow.Value).ToString();
+            res1.Text = Hous.GetQ((int) yearNow.Value).ToString();
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
-            Hous2.BildYear = (int) numeric2Hous1.Value;
-            Hous2.CountOfFlats = (int) numeric2Hous2.Value;
-            Hous2.NumberOfHous = (int) numeric2Hous3.Value;
-            Hous2.Area = area.Text;
-            res2.Text = Hous2.Q((int) yearNow.Value).ToString();
+            Hous2.BildYear = (int) numericHous1.Value;
+            Hous2.CountOfFlats = (int) numericHous2.Value;
+            Hous2.NumberOfHous = (int) numericHous3.Value;
+            res2.Text = Hous2.GetQ((int) yearNow.Value).ToString();
+        }
+
+        private void label5_Click(object sender, EventArgs e)
+        {
+            throw new System.NotImplementedException();
         }
     }
 }
