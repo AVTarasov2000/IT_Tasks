@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ContentModelStore">
-    <e p="C:\Users\andrey\.Rider2019.3\config\scratches" t="IncludeRecursive" />
-    <e p="C:\Users\andrey\.Rider2019.3\system\extResources" t="IncludeRecursive" />
-    <e p="C:\Users\andrey\.Rider2019.3\system\resharper-host\local\Transient\ReSharperHost\v193\SolutionCaches\_information_tecnologes.570876204.00" t="ExcludeRecursive" />
+    <e p="C:\Users\andrey\AppData\local\JetBrains\Rider2020.1\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\andrey\AppData\local\JetBrains\Rider2020.1\resharper-host\local\Transient\ReSharperHost\v201\SolutionCaches\_information_tecnologes.570876204.00" t="ExcludeRecursive" />
     <e p="C:\Users\andrey\RiderProjects\IT_Tasks" t="IncludeFlat">
       <e p="information_tecnologes.sln" t="IncludeFlat" />
       <e p="packages" t="ExcludeRecursive" />
@@ -119,6 +118,37 @@
           <e p="AssemblyInfo.cs" t="Include" />
         </e>
         <e p="task4Library.csproj" t="IncludeRecursive" />
+      </e>
+      <e p="task6Forms" t="IncludeRecursive">
+        <e p="App.config" t="Include" />
+        <e p="App.xaml" t="Include" />
+        <e p="App.xaml.cs" t="Include" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="MainWindow.xaml" t="Include" />
+        <e p="MainWindow.xaml.cs" t="Include" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="App.g.cs" t="Include" />
+            <e p="MainWindow.g.cs" t="Include" />
+          </e>
+        </e>
+        <e p="Properties" t="Include">
+          <e p="AssemblyInfo.cs" t="Include" />
+          <e p="Resources.Designer.cs" t="Include" />
+          <e p="Resources.resx" t="Include" />
+        </e>
+        <e p="task6Forms.csproj" t="IncludeRecursive" />
+      </e>
+      <e p="task6Library" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="ElectricGuitar.cs" t="Include" />
+        <e p="Guitar.cs" t="Include" />
+        <e p="MusicalInstrument.cs" t="Include" />
+        <e p="obj" t="ExcludeRecursive" />
+        <e p="Properties" t="Include">
+          <e p="AssemblyInfo.cs" t="Include" />
+        </e>
+        <e p="task6Library.csproj" t="IncludeRecursive" />
       </e>
     </e>
   </component>

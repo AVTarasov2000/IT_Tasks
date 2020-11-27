@@ -18,6 +18,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "task3Library", "task3Librar
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "task4Library", "task4Library\task4Library.csproj", "{3834984F-5378-4A45-A817-B793E0D49154}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "task6Library", "task6Library\task6Library.csproj", "{0A151BAE-C9FE-467B-A1ED-0E2294AF50A0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "task6Forms", "task6Forms\task6Forms.csproj", "{74267D16-065D-4843-9846-164059709BD5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -60,5 +64,13 @@ Global
 		{3834984F-5378-4A45-A817-B793E0D49154}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3834984F-5378-4A45-A817-B793E0D49154}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3834984F-5378-4A45-A817-B793E0D49154}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0A151BAE-C9FE-467B-A1ED-0E2294AF50A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0A151BAE-C9FE-467B-A1ED-0E2294AF50A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0A151BAE-C9FE-467B-A1ED-0E2294AF50A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0A151BAE-C9FE-467B-A1ED-0E2294AF50A0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{74267D16-065D-4843-9846-164059709BD5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{74267D16-065D-4843-9846-164059709BD5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{74267D16-065D-4843-9846-164059709BD5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{74267D16-065D-4843-9846-164059709BD5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
