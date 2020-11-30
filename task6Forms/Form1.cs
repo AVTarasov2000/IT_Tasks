@@ -27,15 +27,17 @@ namespace task6Forms
 
         private void addInstrumentButton_Click(object sender, EventArgs e)
         {
-            MusicalInstrument instrument = new ElectricGuitar();
+            Guitar instrument = new ElectricGuitar();
             instrument.Name = InstrumentName.Text;
             MusicalInstruments.Add(instrument);
+            instrument.onConsoleWrite += MessageWriter;
             AddRow(instrument);
         }
 
         public void AddRow(MusicalInstrument instrument)
         {
             DataGridViewButtonCell buttonCell = new DataGridViewButtonCell();
+            buttonCell.Value = "button";
             DataGridViewCell cell = new DataGridViewTextBoxCell();
             cell.Value = instrument.Name;
             DataGridViewRow row = new DataGridViewRow();
@@ -51,55 +53,32 @@ namespace task6Forms
             NameColumn.DataPropertyName = "Id";
             NameColumn.ReadOnly = true;
             
-            // DataGridViewComboBoxColumn assignedToColumn = new DataGridViewComboBoxColumn();
-            //
-            // assignedToColumn.Items.Add("unassigned");
-            // assignedToColumn.DefaultCellStyle.NullValue = "unassigned";
-            //
-            // assignedToColumn.Name = "Assigned To";
-            // assignedToColumn.DataPropertyName = "AssignedTo";
-            // assignedToColumn.AutoComplete = true;
-            // assignedToColumn.DisplayMember = "Name";
-            // assignedToColumn.ValueMember = "Self";
-
-            // Add a button column. 
             ButtonColumn = new DataGridViewButtonColumn();
             ButtonColumn.HeaderText = "";
-            ButtonColumn.Name = "Status Request";
-
-
+            ButtonColumn.Name = "Start method";
+            
             listInstruments.Columns.Add(NameColumn);
-            // listInstruments.Columns.Add(assignedToColumn);
             listInstruments.Columns.Add(ButtonColumn);
 
-            // // Add a CellClick handler to handle clicks in the button column.
-            // listInstruments.CellClick +=
-            //     new DataGridViewCellEventHandler(dataGridView1_CellClick);
+            // Add a CellClick handler to handle clicks in the button column.
+            listInstruments.CellClick += new DataGridViewCellEventHandler(dataGridView1_CellClick);
         }
         
-        void dataGridView1_CellClick(object sender, DataGridViewCellEventArgs e)
+        private void dataGridView1_CellClick(object sender, DataGridViewCellEventArgs e)
+        { 
+            if (e.RowIndex < 0 || e.ColumnIndex != listInstruments.Columns["Start method"].Index) return;
+            MusicalInstruments[e.RowIndex].Play();
+        }
+
+        public void MessageWriter(string message)
         {
-            // Ignore clicks that are not on button cells. 
-            if (e.RowIndex < 0 || e.ColumnIndex !=
-                listInstruments.Columns["Status Request"].Index) return;
-
-            // Retrieve the task ID.
-            Int32 taskID = (Int32) listInstruments[0, e.RowIndex].Value;
-
-            // Retrieve the Employee object from the "Assigned To" cell.
-            object assignedTo = listInstruments.Rows[e.RowIndex]
-                .Cells["Assigned To"].Value;
-
-            // Request status through the Employee object if present. 
-            // if (assignedTo != null)
-            // {
-                // assignedTo.RequestStatus(taskID);
-            // }
-            // else
-            {
-                MessageBox.Show(String.Format(
-                    "Task {0} is unassigned.", taskID), "Status Request");
-            }
+            MessageBox.Show(
+                message, 
+                "Сообщение", 
+                MessageBoxButtons.OK, 
+                MessageBoxIcon.Information, 
+                MessageBoxDefaultButton.Button1, 
+                MessageBoxOptions.DefaultDesktopOnly);
         }
     }
     
