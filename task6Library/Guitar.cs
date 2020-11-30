@@ -12,17 +12,29 @@ namespace task6
         
         
         
-        public void Play()
+        public virtual void Play()
         {
             Console.WriteLine("playing instrument {0}", Name);
         }
 
-        public void Tune()
+        public virtual void Tune()
         {
             Console.WriteLine("tuning instrument {0}", Name);
         }
-        
-        
-        
+
+        public virtual void StringBroke(int stringNumber)
+        {
+            Console.WriteLine("{0} string broken",  stringNumber);
+        }
+
+        public virtual void SoundChord(string chord)
+        {
+            Console.WriteLine("{0} {0} {0} {0} {0}",  chord);
+        }
+
+        public override string ToString()
+        {
+            return Name;
+        }
     }
 }

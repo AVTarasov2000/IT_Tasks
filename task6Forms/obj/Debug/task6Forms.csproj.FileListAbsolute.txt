@@ -1,0 +1,13 @@
+C:\Users\Andrey\RiderProjects\IT_Tasks\task6Forms\bin\Debug\task6Forms.exe.config
+C:\Users\Andrey\RiderProjects\IT_Tasks\task6Forms\bin\Debug\task6Forms.exe
+C:\Users\Andrey\RiderProjects\IT_Tasks\task6Forms\bin\Debug\task6Forms.pdb
+C:\Users\Andrey\RiderProjects\IT_Tasks\task6Forms\obj\Debug\task6Forms.csprojAssemblyReference.cache
+C:\Users\Andrey\RiderProjects\IT_Tasks\task6Forms\obj\Debug\task6Forms.Properties.Resources.resources
+C:\Users\Andrey\RiderProjects\IT_Tasks\task6Forms\obj\Debug\task6Forms.csproj.GenerateResource.cache
+C:\Users\Andrey\RiderProjects\IT_Tasks\task6Forms\obj\Debug\task6Forms.csproj.CoreCompileInputs.cache
+C:\Users\Andrey\RiderProjects\IT_Tasks\task6Forms\obj\Debug\task6Forms.exe
+C:\Users\Andrey\RiderProjects\IT_Tasks\task6Forms\obj\Debug\task6Forms.pdb
+C:\Users\Andrey\RiderProjects\IT_Tasks\task6Forms\bin\Debug\task6Library.dll
+C:\Users\Andrey\RiderProjects\IT_Tasks\task6Forms\bin\Debug\task6Library.pdb
+C:\Users\Andrey\RiderProjects\IT_Tasks\task6Forms\obj\Debug\task6Forms.Form1.resources
+C:\Users\Andrey\RiderProjects\IT_Tasks\task6Forms\obj\Debug\task6Forms.csproj.CopyComplete

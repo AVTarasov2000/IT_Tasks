@@ -6,3 +6,4 @@ C:\Users\andrey\RiderProjects\IT_Tasks\task4\obj\Debug\task4.csprojAssemblyRefer
 C:\Users\andrey\RiderProjects\IT_Tasks\task4\bin\Debug\task4Library.dll
 C:\Users\andrey\RiderProjects\IT_Tasks\task4\bin\Debug\task4Library.pdb
 C:\Users\andrey\RiderProjects\IT_Tasks\task4\obj\Debug\task4.csproj.CopyComplete
+C:\Users\Andrey\RiderProjects\IT_Tasks\task4\obj\Debug\task4.csproj.CoreCompileInputs.cache
