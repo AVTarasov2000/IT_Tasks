@@ -15,7 +15,11 @@ namespace task3
             PeopleCount = peopleCount;
             Number = number;
         }
-        
+
+        protected PassengerCar()
+        {
+        }
+
         public override string ToString()
         {
             return "-{number: " + Number+"| prestige: "+Prestige+"}";

@@ -84,7 +84,7 @@ namespace task7Forms
                 MethodInfo methodInfo = SelectedType.GetMethods()[e.RowIndex];
                 foreach (var parameterInfo in methodInfo.GetParameters())
                 {
-                    objects.Add(null);
+                    objects.Add(textBox1.Text);
                 }
 
                 object res = methodInfo.Invoke(SelectedTypeObj, objects.ToArray());

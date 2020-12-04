@@ -6,5 +6,9 @@ namespace task3
         {
             Prestige = 4;
         }
+
+        public PremiumClassCar()
+        {
+        }
     }
 }

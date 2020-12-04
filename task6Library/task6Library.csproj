@@ -39,8 +39,10 @@
     </ItemGroup>
     <ItemGroup>
         <Compile Include="ElectricGuitar.cs" />
+        <Compile Include="Flute.cs" />
         <Compile Include="Guitar.cs" />
         <Compile Include="MusicalInstrument.cs" />
+        <Compile Include="Piano.cs" />
         <Compile Include="Properties\AssemblyInfo.cs" />
     </ItemGroup>
     <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
