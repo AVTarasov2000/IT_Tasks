@@ -1,0 +1,13 @@
+C:\Users\Andrey\RiderProjects\IT_Tasks\task7Forms\bin\Debug\task7Forms.exe.config
+C:\Users\Andrey\RiderProjects\IT_Tasks\task7Forms\bin\Debug\task7Forms.exe
+C:\Users\Andrey\RiderProjects\IT_Tasks\task7Forms\bin\Debug\task7Forms.pdb
+C:\Users\Andrey\RiderProjects\IT_Tasks\task7Forms\bin\Debug\task7Library.dll
+C:\Users\Andrey\RiderProjects\IT_Tasks\task7Forms\bin\Debug\task7Library.pdb
+C:\Users\Andrey\RiderProjects\IT_Tasks\task7Forms\obj\Debug\task7Forms.csprojAssemblyReference.cache
+C:\Users\Andrey\RiderProjects\IT_Tasks\task7Forms\obj\Debug\task7Forms.Properties.Resources.resources
+C:\Users\Andrey\RiderProjects\IT_Tasks\task7Forms\obj\Debug\task7Forms.csproj.GenerateResource.cache
+C:\Users\Andrey\RiderProjects\IT_Tasks\task7Forms\obj\Debug\task7Forms.csproj.CoreCompileInputs.cache
+C:\Users\Andrey\RiderProjects\IT_Tasks\task7Forms\obj\Debug\task7Forms.csproj.CopyComplete
+C:\Users\Andrey\RiderProjects\IT_Tasks\task7Forms\obj\Debug\task7Forms.exe
+C:\Users\Andrey\RiderProjects\IT_Tasks\task7Forms\obj\Debug\task7Forms.pdb
+C:\Users\Andrey\RiderProjects\IT_Tasks\task7Forms\obj\Debug\task7Forms.Form1.resources

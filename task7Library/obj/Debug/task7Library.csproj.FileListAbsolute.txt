@@ -1,0 +1,6 @@
+C:\Users\Andrey\RiderProjects\IT_Tasks\task7Library\bin\Debug\task7Library.dll
+C:\Users\Andrey\RiderProjects\IT_Tasks\task7Library\bin\Debug\task7Library.pdb
+C:\Users\Andrey\RiderProjects\IT_Tasks\task7Library\obj\Debug\task7Library.csprojAssemblyReference.cache
+C:\Users\Andrey\RiderProjects\IT_Tasks\task7Library\obj\Debug\task7Library.csproj.CoreCompileInputs.cache
+C:\Users\Andrey\RiderProjects\IT_Tasks\task7Library\obj\Debug\task7Library.dll
+C:\Users\Andrey\RiderProjects\IT_Tasks\task7Library\obj\Debug\task7Library.pdb

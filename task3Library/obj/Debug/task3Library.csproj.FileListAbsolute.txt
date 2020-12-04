@@ -1,0 +1,6 @@
+C:\Users\Andrey\RiderProjects\IT_Tasks\task3Library\bin\Debug\task3Library.dll
+C:\Users\Andrey\RiderProjects\IT_Tasks\task3Library\bin\Debug\task3Library.pdb
+C:\Users\Andrey\RiderProjects\IT_Tasks\task3Library\obj\Debug\task3Library.csprojAssemblyReference.cache
+C:\Users\Andrey\RiderProjects\IT_Tasks\task3Library\obj\Debug\task3Library.csproj.CoreCompileInputs.cache
+C:\Users\Andrey\RiderProjects\IT_Tasks\task3Library\obj\Debug\task3Library.dll
+C:\Users\Andrey\RiderProjects\IT_Tasks\task3Library\obj\Debug\task3Library.pdb
