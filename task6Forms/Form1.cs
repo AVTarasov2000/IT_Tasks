@@ -15,7 +15,9 @@ namespace task6Forms
     {
         private List<MusicalInstrument> MusicalInstruments { get; }
         private  DataGridViewTextBoxColumn NameColumn { get; set; }
-        private DataGridViewColumn ButtonColumn { get; set; }
+        private DataGridViewColumn PlayButtonColumn { get; set; }
+        private DataGridViewColumn TuneButtonColumn { get; set; }
+        private DataGridViewColumn RemoveButtonColumn { get; set; }
 
 
         public Form1()
@@ -36,38 +38,64 @@ namespace task6Forms
 
         public void AddRow(MusicalInstrument instrument)
         {
-            DataGridViewButtonCell buttonCell = new DataGridViewButtonCell();
-            buttonCell.Value = "button";
+            DataGridViewButtonCell deleteButtonCell = new DataGridViewButtonCell();
+            deleteButtonCell.Value = "delete";
             DataGridViewCell cell = new DataGridViewTextBoxCell();
             cell.Value = instrument.Name;
+            DataGridViewButtonCell playButtonCell = new DataGridViewButtonCell();
+            playButtonCell.Value = "Play";
+            DataGridViewButtonCell tuneButtonCell = new DataGridViewButtonCell();
+            tuneButtonCell.Value = "Tune";
             DataGridViewRow row = new DataGridViewRow();
+            row.Cells.Add(deleteButtonCell);
             row.Cells.Add(cell);
-            row.Cells.Add(buttonCell);
+            row.Cells.Add(playButtonCell);
+            row.Cells.Add(tuneButtonCell);
             listInstruments.Rows.Add(row);
         }
 
         private void AddColumns()
-        { 
+        {
+            listInstruments.AutoSize = true;
+            
+            RemoveButtonColumn = new DataGridViewButtonColumn();
+            RemoveButtonColumn.HeaderText = "";
+            RemoveButtonColumn.Name = "Remove method";
+            
             NameColumn = new  DataGridViewTextBoxColumn();
             NameColumn.Name = "Task";
             NameColumn.DataPropertyName = "Id";
             NameColumn.ReadOnly = true;
             
-            ButtonColumn = new DataGridViewButtonColumn();
-            ButtonColumn.HeaderText = "";
-            ButtonColumn.Name = "Start method";
+            PlayButtonColumn = new DataGridViewButtonColumn();
+            PlayButtonColumn.HeaderText = "";
+            PlayButtonColumn.Name = "Play method";
             
+            TuneButtonColumn = new DataGridViewButtonColumn();
+            TuneButtonColumn.HeaderText = "";
+            TuneButtonColumn.Name = "Tune method";
+            
+            listInstruments.Columns.Add(RemoveButtonColumn);
             listInstruments.Columns.Add(NameColumn);
-            listInstruments.Columns.Add(ButtonColumn);
-
-            // Add a CellClick handler to handle clicks in the button column.
+            listInstruments.Columns.Add(PlayButtonColumn);
+            listInstruments.Columns.Add(TuneButtonColumn);
+            
             listInstruments.CellClick += new DataGridViewCellEventHandler(dataGridView1_CellClick);
         }
         
         private void dataGridView1_CellClick(object sender, DataGridViewCellEventArgs e)
         { 
-            if (e.RowIndex < 0 || e.ColumnIndex != listInstruments.Columns["Start method"].Index) return;
-            MusicalInstruments[e.RowIndex].Play();
+            if (e.RowIndex < 0) return;
+
+            if(e.ColumnIndex == listInstruments.Columns["Play method"].Index)
+                MusicalInstruments[e.RowIndex].Play();
+            else if (e.ColumnIndex == listInstruments.Columns["Tune method"].Index)
+                MusicalInstruments[e.RowIndex].Tune();
+            else if (e.ColumnIndex == listInstruments.Columns["Remove method"].Index)
+            {
+                MusicalInstruments.RemoveAt(e.RowIndex);
+                listInstruments.Rows.RemoveAt(e.RowIndex);
+            }
         }
 
         public void MessageWriter(string message)

@@ -38,14 +38,16 @@
             // 
             // InstrumentName
             // 
-            this.InstrumentName.Location = new System.Drawing.Point(370, 368);
+            this.InstrumentName.Anchor = ((System.Windows.Forms.AnchorStyles) ((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.InstrumentName.Location = new System.Drawing.Point(370, 352);
             this.InstrumentName.Name = "InstrumentName";
             this.InstrumentName.Size = new System.Drawing.Size(131, 22);
             this.InstrumentName.TabIndex = 1;
             // 
             // instrumentNameLabel
             // 
-            this.instrumentNameLabel.Location = new System.Drawing.Point(370, 344);
+            this.instrumentNameLabel.Anchor = ((System.Windows.Forms.AnchorStyles) ((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.instrumentNameLabel.Location = new System.Drawing.Point(371, 328);
             this.instrumentNameLabel.Name = "instrumentNameLabel";
             this.instrumentNameLabel.Size = new System.Drawing.Size(130, 21);
             this.instrumentNameLabel.TabIndex = 2;
@@ -53,7 +55,8 @@
             // 
             // addInstrumentButton
             // 
-            this.addInstrumentButton.Location = new System.Drawing.Point(370, 396);
+            this.addInstrumentButton.Anchor = ((System.Windows.Forms.AnchorStyles) ((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.addInstrumentButton.Location = new System.Drawing.Point(370, 380);
             this.addInstrumentButton.Name = "addInstrumentButton";
             this.addInstrumentButton.Size = new System.Drawing.Size(131, 23);
             this.addInstrumentButton.TabIndex = 3;
@@ -74,7 +77,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(604, 446);
+            this.ClientSize = new System.Drawing.Size(513, 430);
             this.Controls.Add(this.listInstruments);
             this.Controls.Add(this.addInstrumentButton);
             this.Controls.Add(this.instrumentNameLabel);

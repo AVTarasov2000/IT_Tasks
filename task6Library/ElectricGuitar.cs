@@ -8,18 +8,20 @@ namespace task6
         public string Company { get; set; }
         public bool Bass { get; set; }
         
-        public event MethodContainer onConsoleWrite;
+
         
-        public void ConnectToCombic()
+        public string ConnectToCombic()
         {
-            onConsoleWrite(String.Format("instrument {0} is connected", Name));
+            ConsoleFunctionProcessing(String.Format("instrument {0} is connected", Name));
             Console.WriteLine("instrument {0} is connected", Name);
+            return String.Format("instrument {0} is connected", Name);
         }
 
-        public void DisconectFromCombic()
+        public string DisconectFromCombic()
         {
-            onConsoleWrite(String.Format("instrument {0} is disconnected", Name));
+            ConsoleFunctionProcessing(String.Format("instrument {0} is disconnected", Name));
             Console.WriteLine("instrument {0} is disconnected", Name);
+            return String.Format("instrument {0} is connected", Name);
         }
     }
 }

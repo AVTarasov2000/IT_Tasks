@@ -8,8 +8,8 @@
             set;
         }
 
-        void Play();
+        string Play();
 
-        void Tune();
+        string Tune();
     }
 }

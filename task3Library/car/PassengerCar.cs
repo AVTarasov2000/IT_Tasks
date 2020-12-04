@@ -1,6 +1,6 @@
 namespace task3
 {
-    public class PassengerCar
+    public abstract class PassengerCar
     {
         public int Number { get; set; }
         public int PeopleCount { get; }

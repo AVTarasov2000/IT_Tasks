@@ -14,30 +14,41 @@ namespace task6
         
         
         
-        public virtual void Play()
+        public virtual string Play()
         {
-            onConsoleWrite(String.Format("playing instrument {0}", Name));
+            ConsoleFunctionProcessing(String.Format("playing instrument {0}", Name));
             Console.WriteLine("playing instrument {0}", Name);
+            return String.Format("playing instrument {0}", Name);
+
         }
 
-        public virtual void Tune()
+        public virtual string Tune()
         {
-            onConsoleWrite(String.Format("tuning instrument {0}", Name));
+            ConsoleFunctionProcessing(String.Format("tuning instrument {0}", Name));
             Console.WriteLine("tuning instrument {0}", Name);
+            return String.Format("tuning instrument {0}", Name);
         }
 
-        public virtual void StringBroke(int stringNumber)
+        public virtual string StringBroke(int stringNumber)
         {
-            onConsoleWrite(String.Format("{0} string broken", stringNumber));
+            ConsoleFunctionProcessing(String.Format("{0} string broken", stringNumber));
             Console.WriteLine("{0} string broken",  stringNumber);
+            return String.Format("{0} string broken", stringNumber);
         }
 
-        public virtual void SoundChord(string chord)
+        public virtual string SoundChord(string chord)
         {
-            onConsoleWrite(String.Format("{0} {0} {0} {0} {0}", chord));
+            ConsoleFunctionProcessing(String.Format("{0} {0} {0} {0} {0}", chord));
             Console.WriteLine("{0} {0} {0} {0} {0}",  chord);
+            return String.Format("{0} - {0} - {0} - {0} - {0}", chord);
+
         }
 
+        public virtual void ConsoleFunctionProcessing(string message)
+        {
+            onConsoleWrite?.Invoke(message);
+        }
+        
         public override string ToString()
         {
             return Name;
