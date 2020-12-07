@@ -1,0 +1,9 @@
+/Users/andrejtarasov/RiderProjects/IT_Tasks/TestForAll/bin/Debug/TestForAll.exe
+/Users/andrejtarasov/RiderProjects/IT_Tasks/TestForAll/bin/Debug/TestForAll.pdb
+/Users/andrejtarasov/RiderProjects/IT_Tasks/TestForAll/bin/Debug/task8Library.dll
+/Users/andrejtarasov/RiderProjects/IT_Tasks/TestForAll/bin/Debug/task8Library.pdb
+/Users/andrejtarasov/RiderProjects/IT_Tasks/TestForAll/obj/Debug/TestForAll.csprojAssemblyReference.cache
+/Users/andrejtarasov/RiderProjects/IT_Tasks/TestForAll/obj/Debug/TestForAll.csproj.CoreCompileInputs.cache
+/Users/andrejtarasov/RiderProjects/IT_Tasks/TestForAll/obj/Debug/TestForAll.csproj.CopyComplete
+/Users/andrejtarasov/RiderProjects/IT_Tasks/TestForAll/obj/Debug/TestForAll.exe
+/Users/andrejtarasov/RiderProjects/IT_Tasks/TestForAll/obj/Debug/TestForAll.pdb
