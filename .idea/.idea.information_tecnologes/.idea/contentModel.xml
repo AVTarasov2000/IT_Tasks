@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ContentModelStore">
-    <e p="C:\Users\andrey\AppData\local\JetBrains\Rider2020.1\extResources" t="IncludeRecursive" />
-    <e p="C:\Users\andrey\AppData\local\JetBrains\Rider2020.1\resharper-host\local\Transient\ReSharperHost\v201\SolutionCaches\_information_tecnologes.570876204.00" t="ExcludeRecursive" />
-    <e p="C:\Users\andrey\RiderProjects\IT_Tasks" t="IncludeFlat">
+    <e p="$APPLICATION_CONFIG_DIR$/scratches" t="IncludeRecursive" />
+    <e p="$USER_HOME$/Library/Caches/JetBrains/Rider2020.2/extResources" t="IncludeRecursive" />
+    <e p="$USER_HOME$/Library/Caches/JetBrains/Rider2020.2/resharper-host/local/Transient/Rider/v202/SolutionCaches/_information_tecnologes.1015008863.00" t="ExcludeRecursive" />
+    <e p="$PROJECT_DIR$" t="IncludeFlat">
       <e p="information_tecnologes.sln" t="IncludeFlat" />
       <e p="packages" t="ExcludeRecursive" />
       <e p="task1" t="IncludeRecursive">
@@ -179,12 +180,22 @@
         <e p="bin" t="ExcludeRecursive" />
         <e p="Driver.cs" t="Include" />
         <e p="EmergencyService.cs" t="Include" />
+        <e p="Emulation.cs" t="Include" />
         <e p="obj" t="ExcludeRecursive" />
         <e p="Properties" t="Include">
           <e p="AssemblyInfo.cs" t="Include" />
         </e>
         <e p="task8Library.csproj" t="IncludeRecursive" />
         <e p="TrolleyBuss.cs" t="Include" />
+      </e>
+      <e p="TestForAll" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="obj" t="ExcludeRecursive" />
+        <e p="Program.cs" t="Include" />
+        <e p="Properties" t="Include">
+          <e p="AssemblyInfo.cs" t="Include" />
+        </e>
+        <e p="TestForAll.csproj" t="IncludeRecursive" />
       </e>
     </e>
   </component>

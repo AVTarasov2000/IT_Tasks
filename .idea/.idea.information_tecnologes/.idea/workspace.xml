@@ -8,6 +8,7 @@
     <projectFile>MacOSApp1/MacOSApp1.csproj</projectFile>
     <projectFile>task2GUI/task2GUI.csproj</projectFile>
     <projectFile>task4/task4.csproj</projectFile>
+    <projectFile>TestForAll/TestForAll.csproj</projectFile>
   </component>
   <component name="BranchesTreeState">
     <expand>
@@ -20,18 +21,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="554aa1b8-da8f-4286-920e-dc799b17a46d" name="Default Changelist" comment="7 done">
-      <change afterPath="$PROJECT_DIR$/task8Library/Driver.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task8Library/EmergencyService.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task8Library/TrolleyBuss.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task8Library/Emulation.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task8Library/Properties/AssemblyInfo.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task8Library/obj/Debug/.NETFramework,Version=v4.8.AssemblyAttributes.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task8Library/task8Library.csproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.information_tecnologes/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.information_tecnologes/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.information_tecnologes/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.information_tecnologes/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/information_tecnologes.sln" beforeDir="false" afterPath="$PROJECT_DIR$/information_tecnologes.sln" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task2Forms/obj/Debug/task2Forms.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/task2Forms/obj/Debug/task2Forms.csprojAssemblyReference.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/task3Forms/obj/Debug/task3Forms.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/task3Forms/obj/Debug/task3Forms.csprojAssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task3Library/obj/Debug/task3Library.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/task3Library/obj/Debug/task3Library.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task4Forms/obj/Debug/task4Forms.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/task4Forms/obj/Debug/task4Forms.csprojAssemblyReference.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/task6Forms/obj/Debug/task6Forms.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/task6Forms/obj/Debug/task6Forms.csprojAssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task6Library/obj/Debug/task6Library.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/task6Library/obj/Debug/task6Library.csprojAssemblyReference.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/task7Forms/obj/Debug/task7Forms.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/task7Forms/obj/Debug/task7Forms.csprojAssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task7Library/obj/Debug/task7Library.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/task7Library/obj/Debug/task7Library.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task8Library/Driver.cs" beforeDir="false" afterPath="$PROJECT_DIR$/task8Library/Driver.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task8Library/EmergencyService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/task8Library/EmergencyService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task8Library/TrolleyBuss.cs" beforeDir="false" afterPath="$PROJECT_DIR$/task8Library/TrolleyBuss.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,55 +46,42 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/task3/Program.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/task2Library/File.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/task3Forms/Program.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/task4/Program.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/task3Forms/Form1.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/task3Forms/Form1.Designer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/task6Forms/Form1.Designer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/task6Forms/Program.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/task6Library/Piano.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/task6Library/Guitar.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/task6Forms/Form1.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/task6Library/Flute.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/task6Library/ElectricGuitar.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/task2Forms/Form1.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/task2Forms/Form1.Designer.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/task2Forms/Program.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/task4Forms/Form1.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/task4Forms/Form1.Designer.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/task4Forms/Program.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/task6Forms/Program.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/7577A63E-E5FE-4166-BE63-9617CBE2525E/26/19dcc01b/DataGridViewRowCollection.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/task6Forms/Form1.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/task8Library/TrolleyBuss.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/task6Forms/Form1.Designer.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/task8Library/Driver.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/task8Library/EmergencyService.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/task3Library/Train.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/7577A63E-E5FE-4166-BE63-9617CBE2525E/32/affd6d8f/Button.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/task3Library/car/FirstClassCar.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/task3Library/car/PassengerCar.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/task3Library/car/PremiumClassCar.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/task3Library/car/SecondClassCar.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/IL/E5541652-8193-4193-ABD6-7DDD115C25D2/30/05e2782e/02000002pdb.il" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/FC4FDE92-EB6F-48C0-97C9-E23AC1E2176C/19/048b0d44/Enumerable.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/D82962CD-623D-4D1F-A179-3EAD3990E367/8f/3cc07e26/RuntimeType.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/task6Library/Piano.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/task7Library/ClassLooker.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/task6Library/Flute.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/task1/Program.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/7577A63E-E5FE-4166-BE63-9617CBE2525E/db/0f1e7bf9/DataGridViewCellEventArgs.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/D82962CD-623D-4D1F-A179-3EAD3990E367/1a/d7201616/RuntimeMethodInfo.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/task7Forms/Program.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/task2/Program.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/task7Forms/App.config" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/task6Library/MusicalInstrument.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/task7Forms/Form1.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/task6Library/Guitar.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/D82962CD-623D-4D1F-A179-3EAD3990E367/d2/cdd83657/List`1.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/task4Forms/Form1.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/task3Forms/Form1.Designer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/task7Forms/App.config" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/task7Forms/Form1.Designer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/task3Forms/Program.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/task3Library/car/SecondClassCar.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/task3Library/car/FirstClassCar.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/task7Forms/Program.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/task3Forms/Form1.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/task3Library/car/PremiumClassCar.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/task3Library/car/PassengerCar.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/task2Forms/Form1.Designer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/task2Forms/Program.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/task2Forms/Form1.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/task7Library/ClassLooker.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/task4/Program.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/task3/Program.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/task2/Program.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/task3Library/Train.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/task1/Program.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/task2Library/File.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/task7Forms/Form1.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/task3/car/freight/FreightCar.cs" />
-        <option value="$PROJECT_DIR$/task3/car/freight/SpecianCar.cs" />
         <option value="$PROJECT_DIR$/testGUI/ViewController.cs" />
         <option value="$PROJECT_DIR$/MacOSApp1/Entitlements.plist" />
         <option value="$PROJECT_DIR$/MacOSApp1/ViewController.cs" />
@@ -127,7 +118,6 @@
         <option value="$PROJECT_DIR$/task7Library/ClassLooker.cs" />
         <option value="$PROJECT_DIR$/task6Library/MusicalInstrument.cs" />
         <option value="$PROJECT_DIR$/task6Library/ElectricGuitar.cs" />
-        <option value="$PROJECT_DIR$/task6Library/Guitar.cs" />
         <option value="$PROJECT_DIR$/task6Library/Piano.cs" />
         <option value="$PROJECT_DIR$/task6Library/Flute.cs" />
         <option value="$PROJECT_DIR$/task3Library/car/FirstClassCar.cs" />
@@ -137,9 +127,12 @@
         <option value="$PROJECT_DIR$/task7Forms/Form1.cs" />
         <option value="$PROJECT_DIR$/task8Library/Program.cs" />
         <option value="$PROJECT_DIR$/task8Library/TrolleyBus.cs" />
-        <option value="$PROJECT_DIR$/task8Library/TrolleyBuss.cs" />
-        <option value="$PROJECT_DIR$/task8Library/Driver.cs" />
         <option value="$PROJECT_DIR$/task8Library/EmergencyService.cs" />
+        <option value="$PROJECT_DIR$/task8Library/Driver.cs" />
+        <option value="$PROJECT_DIR$/task6Library/Guitar.cs" />
+        <option value="$PROJECT_DIR$/TestForAll/Program.cs" />
+        <option value="$PROJECT_DIR$/task8Library/Emulation.cs" />
+        <option value="$PROJECT_DIR$/task8Library/TrolleyBuss.cs" />
       </list>
     </option>
   </component>
@@ -163,7 +156,25 @@
     <property name="settings.editor.selected.configurable" value="configurable.group.editor" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
-  <component name="RunManager" selected=".NET Project.task7Forms">
+  <component name="RunManager" selected=".NET Project.TestForAll">
+    <configuration name="TestForAll" type="DotNetProject" factoryName=".NET Project">
+      <option name="EXE_PATH" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/TestForAll/TestForAll.csproj" />
+      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
+      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
+      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
+      <option name="PROJECT_KIND" value="Console" />
+      <option name="PROJECT_TFM" value="" />
+      <method v="2">
+        <option name="Build" />
+      </method>
+    </configuration>
     <configuration name="task1" type="DotNetProject" factoryName=".NET Project">
       <option name="EXE_PATH" value="" />
       <option name="PROGRAM_PARAMETERS" value="" />
@@ -363,7 +374,7 @@
       </list>
     </recent_temporary>
   </component>
-  <component name="SpellCheckerSettings" BundledDictionaries="0" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -390,6 +401,7 @@
       <workItem from="1606812088431" duration="14216000" />
       <workItem from="1607076806943" duration="9932000" />
       <workItem from="1607089496199" duration="1287000" />
+      <workItem from="1607113645639" duration="7096000" />
     </task>
     <task id="LOCAL-00001" summary="task2Forms">
       <created>1601324841721</created>
@@ -451,7 +463,7 @@
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="2" />
+    <option name="version" value="3" />
   </component>
   <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
@@ -483,32 +495,32 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="644" y="150" key="#task3/0.0.1920.1050@0.0.1920.1050" timestamp="1607085967044" />
-    <state width="1877" height="154" key="GridCell.Tab.0.bottom" timestamp="1607086810482">
-      <screen x="0" y="0" width="1920" height="1050" />
+    <state width="1238" height="212" key="GridCell.Tab.0.bottom" timestamp="1607260752289">
+      <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state width="1238" height="88" key="GridCell.Tab.0.bottom/0.0.1280.760@0.0.1280.760" timestamp="1601326627710" />
-    <state width="1238" height="212" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1601226461363" />
+    <state width="1238" height="212" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1607260752289" />
     <state width="1877" height="154" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1607086810482" />
     <state width="1238" height="212" key="GridCell.Tab.0.bottom/0.23.1280.737@0.23.1280.737" timestamp="1601201017990" />
-    <state width="1877" height="154" key="GridCell.Tab.0.center" timestamp="1607086810482">
-      <screen x="0" y="0" width="1920" height="1050" />
+    <state width="1238" height="212" key="GridCell.Tab.0.center" timestamp="1607260752288">
+      <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state width="1238" height="88" key="GridCell.Tab.0.center/0.0.1280.760@0.0.1280.760" timestamp="1601326627710" />
-    <state width="1238" height="212" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1601226461361" />
+    <state width="1238" height="212" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1607260752288" />
     <state width="1877" height="154" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1607086810482" />
     <state width="1238" height="212" key="GridCell.Tab.0.center/0.23.1280.737@0.23.1280.737" timestamp="1601201017988" />
-    <state width="1877" height="154" key="GridCell.Tab.0.left" timestamp="1607086810482">
-      <screen x="0" y="0" width="1920" height="1050" />
+    <state width="1238" height="212" key="GridCell.Tab.0.left" timestamp="1607260752287">
+      <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state width="1238" height="88" key="GridCell.Tab.0.left/0.0.1280.760@0.0.1280.760" timestamp="1601326627710" />
-    <state width="1238" height="212" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1601226461360" />
+    <state width="1238" height="212" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1607260752287" />
     <state width="1877" height="154" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1607086810482" />
     <state width="1238" height="212" key="GridCell.Tab.0.left/0.23.1280.737@0.23.1280.737" timestamp="1601201017986" />
-    <state width="1877" height="154" key="GridCell.Tab.0.right" timestamp="1607086810482">
-      <screen x="0" y="0" width="1920" height="1050" />
+    <state width="1238" height="212" key="GridCell.Tab.0.right" timestamp="1607260752288">
+      <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state width="1238" height="88" key="GridCell.Tab.0.right/0.0.1280.760@0.0.1280.760" timestamp="1601326627710" />
-    <state width="1238" height="212" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1601226461362" />
+    <state width="1238" height="212" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1607260752288" />
     <state width="1877" height="154" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1607086810482" />
     <state width="1238" height="212" key="GridCell.Tab.0.right/0.23.1280.737@0.23.1280.737" timestamp="1601201017989" />
     <state width="1877" height="379" key="GridCell.Tab.1.bottom" timestamp="1607086810476">
@@ -615,11 +627,11 @@
     </state>
     <state width="1238" height="236" key="GridCell.Tab.4.right/0.0.1280.760@0.0.1280.760" timestamp="1601324427243" />
     <state width="1877" height="379" key="GridCell.Tab.4.right/0.0.1920.1050@0.0.1920.1050" timestamp="1607086810476" />
-    <state x="360" y="133" key="Rider.ProjectTemplateDialog.Size" timestamp="1607090096330">
-      <screen x="0" y="0" width="1920" height="1050" />
+    <state x="240" y="116" key="Rider.ProjectTemplateDialog.Size" timestamp="1607255381164">
+      <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="240" y="96" key="Rider.ProjectTemplateDialog.Size/0.0.1280.760@0.0.1280.760" timestamp="1601324967440" />
-    <state x="240" y="116" key="Rider.ProjectTemplateDialog.Size/0.0.1280.800@0.0.1280.800" timestamp="1601124582401" />
+    <state x="240" y="116" key="Rider.ProjectTemplateDialog.Size/0.0.1280.800@0.0.1280.800" timestamp="1607255381164" />
     <state x="360" y="133" key="Rider.ProjectTemplateDialog.Size/0.0.1920.1050@0.0.1920.1050" timestamp="1607090096330" />
     <state x="240" y="130" key="Rider.ProjectTemplateDialog.Size/0.23.1280.736@0.23.1280.736" timestamp="1600764030120" />
     <state x="240" y="116" key="Rider.ProjectTemplateDialog.Size/0.23.1280.737@0.23.1280.737" timestamp="1601199094042" />
@@ -638,6 +650,10 @@
       <screen x="0" y="0" width="1280" height="760" />
     </state>
     <state x="420" y="247" key="ToolboxManager/0.0.1280.760@0.0.1280.760" timestamp="1601322747560" />
+    <state x="100" y="100" width="1080" height="600" key="VCS.FileHistoryDialog" timestamp="1607260633555">
+      <screen x="0" y="23" width="1280" height="737" />
+    </state>
+    <state x="100" y="100" width="1080" height="600" key="VCS.FileHistoryDialog/0.23.1280.737@0.23.1280.737" timestamp="1607260633555" />
     <state x="360" y="184" key="Vcs.Push.Dialog.v2" timestamp="1607086799102">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
@@ -655,9 +671,10 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="616" y="243" key="run.anything.popup/0.0.1920.1050@0.0.1920.1050" timestamp="1606470496071" />
-    <state x="623" y="227" width="672" height="678" key="search.everywhere.popup" timestamp="1607085824984">
-      <screen x="0" y="0" width="1920" height="1050" />
+    <state x="415" y="173" width="672" height="517" key="search.everywhere.popup" timestamp="1607160226188">
+      <screen x="0" y="0" width="1280" height="800" />
     </state>
+    <state x="415" y="173" width="672" height="517" key="search.everywhere.popup/0.0.1280.800@0.0.1280.800" timestamp="1607160226188" />
     <state x="623" y="227" width="672" height="678" key="search.everywhere.popup/0.0.1920.1050@0.0.1920.1050" timestamp="1607085824984" />
   </component>
 </project>
