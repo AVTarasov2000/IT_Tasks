@@ -1,29 +1,46 @@
 ﻿using System;
+using System.Threading;
 
 namespace task8Library
 {
     public class TrolleyBuss
     {
-        public delegate void MethodContainer(string message);
-        public event MethodContainer OnActionWriting;
-        public delegate void NeedHelp();
-        public event NeedHelp OnSimpleBrake;
-        public event NeedHelp OnComplexBrake;
+        public event Emulation.MethodContainer OnActionWriting;
+        public event Emulation.NeedHelp OnSimpleBrake;
+        public event Emulation.NeedHelp OnComplexBrake;
         
-
+        public Route Route { get; set; }
+        public Coordinates MyCoordinates { get; set; }
+        public Coordinates TargetCoordinates { get; set; }
         public Driver Driver { get; set; }
         public bool NeedEmergencyHelp { get; set; }
         public bool NeedDriverHelp { get; set; }
-        private int SimpleBrakeChance { get; set; }
-        private int ComplexBrakeChance { get; set; }
+        private int SimpleBrakeChance { get; }
+        private int ComplexBrakeChance { get; }
+        private Random Random { get; } = new Random();
 
-        public TrolleyBuss(int simpleBrakeChance, int complexBrakeChance)
+        public TrolleyBuss(int simpleBrakeChance, int complexBrakeChance, Coordinates myCoordinates, Route route)
         {
             if (simpleBrakeChance > 100 || complexBrakeChance > 100 ||
                 simpleBrakeChance < 0 || complexBrakeChance < 0)
                 throw new ArgumentOutOfRangeException();
             SimpleBrakeChance = simpleBrakeChance;
             ComplexBrakeChance = complexBrakeChance;
+            MyCoordinates = myCoordinates;
+            TargetCoordinates = myCoordinates;
+            Route = route;
+        }
+
+        public void Start()
+        {
+            while (true)
+            {
+                if (!(NeedDriverHelp || NeedEmergencyHelp))
+                {
+                    Move();
+                }
+                Thread.Sleep(500);
+            }
         }
 
         public void Move()
@@ -33,28 +50,35 @@ namespace task8Library
                 OnActionWritingFunction("The buss cant move it's broken");
                 return;
             }
-
-            if (IsSimplyBroken())
+            if (MyCoordinates.IsOn(TargetCoordinates))
             {
-                OnActionWritingFunction("the buss has broken and needs Drivers help");
-                OnSimpleBrake.Invoke();
-                return;
+                OnActionWritingFunction("Buss stopped");
+                TargetCoordinates = Route.Next();
             }
-
-            if (IsComplexBroken())
+            else
             {
-                OnActionWritingFunction("the buss has broken and needs emergency service");
-                OnComplexBrake.Invoke();
-                return;
-            }
+                if (IsSimplyBroken())
+                {
+                    OnActionWritingFunction("the buss has broken and needs Drivers help");
+                    // OnSimpleBrake?.Invoke(this);
+                    return;
+                }
 
-            OnActionWritingFunction("Buss moved");
+                if (IsComplexBroken())
+                {
+                    OnActionWritingFunction("the buss has broken and needs emergency service");
+                    OnComplexBrake?.Invoke(this);
+                    return;
+                }
+                
+                OnActionWritingFunction("Buss moved");
+                MyCoordinates.MoveTo(TargetCoordinates);
+            }
         }
         
         private bool IsSimplyBroken()
         {
-            Random rnd = new Random();
-            int x = rnd.Next(0, 100);
+            int x = Random.Next(0, 100);
             if (x < SimpleBrakeChance)
             {
                 NeedDriverHelp = true;
@@ -65,8 +89,7 @@ namespace task8Library
         
         private bool IsComplexBroken()
         {
-            Random rnd = new Random();
-            int x = rnd.Next(0, 100);
+            int x = Random.Next(0, 100);
             if (x < ComplexBrakeChance)
             {
                 NeedEmergencyHelp = true;

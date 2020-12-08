@@ -1,4 +1,6 @@
-﻿using task8Library;
+﻿using System;
+using System.Threading;
+using task8Library;
 
 namespace TestForAll
 {
@@ -6,7 +8,8 @@ namespace TestForAll
     {
         public static void Main(string[] args)
         {
-            Emulation emulation = new Emulation();
+            EmergencyService emergencyService = new EmergencyService(new Coordinates(1,1), new Coordinates(1,1));
+            Emulation emulation = new Emulation(emergencyService);
             emulation.Start();
         }
     }
