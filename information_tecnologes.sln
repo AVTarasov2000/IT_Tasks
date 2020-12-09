@@ -30,6 +30,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "task8Library", "task8Librar
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestForAll", "TestForAll\TestForAll.csproj", "{24A51773-DBAE-40C1-BFC5-3E3628461AEB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "task8Forms", "task8Forms\task8Forms.csproj", "{96BC8340-DD57-49B9-9215-E37B242E7A21}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -96,5 +98,9 @@ Global
 		{24A51773-DBAE-40C1-BFC5-3E3628461AEB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{24A51773-DBAE-40C1-BFC5-3E3628461AEB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{24A51773-DBAE-40C1-BFC5-3E3628461AEB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{96BC8340-DD57-49B9-9215-E37B242E7A21}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{96BC8340-DD57-49B9-9215-E37B242E7A21}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{96BC8340-DD57-49B9-9215-E37B242E7A21}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{96BC8340-DD57-49B9-9215-E37B242E7A21}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

@@ -20,32 +20,82 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="554aa1b8-da8f-4286-920e-dc799b17a46d" name="Default Changelist" comment="last">
-      <change afterPath="$PROJECT_DIR$/task8Library/Coordinates.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task8Library/Route.cs" afterDir="false" />
+    <list default="true" id="554aa1b8-da8f-4286-920e-dc799b17a46d" name="Default Changelist" comment="add Coordinates">
+      <change afterPath="$PROJECT_DIR$/task8Forms/App.config" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task8Forms/Form1.Designer.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task8Forms/Form1.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task8Forms/Program.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task8Forms/Properties/AssemblyInfo.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task8Forms/Properties/Resources.Designer.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task8Forms/Properties/Resources.resx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task8Forms/Properties/Settings.Designer.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task8Forms/Properties/Settings.settings" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task8Forms/task8Forms.csproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.information_tecnologes/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.information_tecnologes/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.information_tecnologes/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.information_tecnologes/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TestForAll/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TestForAll/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestForAll/bin/Debug/TestForAll.exe" beforeDir="false" afterPath="$PROJECT_DIR$/TestForAll/bin/Debug/TestForAll.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestForAll/bin/Debug/TestForAll.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/TestForAll/bin/Debug/TestForAll.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestForAll/bin/Debug/task8Library.dll" beforeDir="false" afterPath="$PROJECT_DIR$/TestForAll/bin/Debug/task8Library.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestForAll/bin/Debug/task8Library.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/TestForAll/bin/Debug/task8Library.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestForAll/obj/Debug/TestForAll.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/TestForAll/obj/Debug/TestForAll.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestForAll/obj/Debug/TestForAll.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/TestForAll/obj/Debug/TestForAll.csproj.FileListAbsolute.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestForAll/obj/Debug/TestForAll.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/TestForAll/obj/Debug/TestForAll.csprojAssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestForAll/obj/Debug/TestForAll.exe" beforeDir="false" afterPath="$PROJECT_DIR$/TestForAll/obj/Debug/TestForAll.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestForAll/obj/Debug/TestForAll.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/TestForAll/obj/Debug/TestForAll.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/information_tecnologes.sln" beforeDir="false" afterPath="$PROJECT_DIR$/information_tecnologes.sln" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task1/bin/Debug/task1.exe" beforeDir="false" afterPath="$PROJECT_DIR$/task1/bin/Debug/task1.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task1/bin/Debug/task1.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/task1/bin/Debug/task1.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task1/obj/Debug/task1.exe" beforeDir="false" afterPath="$PROJECT_DIR$/task1/obj/Debug/task1.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task1/obj/Debug/task1.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/task1/obj/Debug/task1.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task2/bin/Debug/task2.exe" beforeDir="false" afterPath="$PROJECT_DIR$/task2/bin/Debug/task2.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task2/bin/Debug/task2.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/task2/bin/Debug/task2.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task2/obj/Debug/task2.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/task2/obj/Debug/task2.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task2/obj/Debug/task2.exe" beforeDir="false" afterPath="$PROJECT_DIR$/task2/obj/Debug/task2.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task2/obj/Debug/task2.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/task2/obj/Debug/task2.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task2Forms/bin/Debug/task2Library.dll" beforeDir="false" afterPath="$PROJECT_DIR$/task2Forms/bin/Debug/task2Library.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task2Forms/bin/Debug/task2Library.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/task2Forms/bin/Debug/task2Library.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task2Forms/obj/Debug/task2Forms.csproj.GenerateResource.cache" beforeDir="false" afterPath="$PROJECT_DIR$/task2Forms/obj/Debug/task2Forms.csproj.GenerateResource.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/task2Forms/obj/Debug/task2Forms.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/task2Forms/obj/Debug/task2Forms.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task2Library/bin/Debug/task2Library.dll" beforeDir="false" afterPath="$PROJECT_DIR$/task2Library/bin/Debug/task2Library.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task2Library/bin/Debug/task2Library.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/task2Library/bin/Debug/task2Library.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task2Library/obj/Debug/task2Library.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/task2Library/obj/Debug/task2Library.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task2Library/obj/Debug/task2Library.dll" beforeDir="false" afterPath="$PROJECT_DIR$/task2Library/obj/Debug/task2Library.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task2Library/obj/Debug/task2Library.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/task2Library/obj/Debug/task2Library.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task3Forms/bin/Debug/task3Library.dll" beforeDir="false" afterPath="$PROJECT_DIR$/task3Forms/bin/Debug/task3Library.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task3Forms/bin/Debug/task3Library.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/task3Forms/bin/Debug/task3Library.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task3Forms/obj/Debug/task3Forms.csproj.GenerateResource.cache" beforeDir="false" afterPath="$PROJECT_DIR$/task3Forms/obj/Debug/task3Forms.csproj.GenerateResource.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/task3Forms/obj/Debug/task3Forms.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/task3Forms/obj/Debug/task3Forms.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task3Library/bin/Debug/task3Library.dll" beforeDir="false" afterPath="$PROJECT_DIR$/task3Library/bin/Debug/task3Library.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task3Library/bin/Debug/task3Library.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/task3Library/bin/Debug/task3Library.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task3Library/obj/Debug/task3Library.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/task3Library/obj/Debug/task3Library.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task3Library/obj/Debug/task3Library.dll" beforeDir="false" afterPath="$PROJECT_DIR$/task3Library/obj/Debug/task3Library.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task3Library/obj/Debug/task3Library.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/task3Library/obj/Debug/task3Library.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task4/bin/Debug/task4.exe" beforeDir="false" afterPath="$PROJECT_DIR$/task4/bin/Debug/task4.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task4/bin/Debug/task4.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/task4/bin/Debug/task4.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task4/bin/Debug/task4Library.dll" beforeDir="false" afterPath="$PROJECT_DIR$/task4/bin/Debug/task4Library.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task4/bin/Debug/task4Library.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/task4/bin/Debug/task4Library.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/task4/obj/Debug/task4.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/task4/obj/Debug/task4.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task4/obj/Debug/task4.exe" beforeDir="false" afterPath="$PROJECT_DIR$/task4/obj/Debug/task4.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task4/obj/Debug/task4.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/task4/obj/Debug/task4.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task4Forms/bin/Debug/task4Library.dll" beforeDir="false" afterPath="$PROJECT_DIR$/task4Forms/bin/Debug/task4Library.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task4Forms/bin/Debug/task4Library.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/task4Forms/bin/Debug/task4Library.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task4Forms/obj/Debug/task4Forms.csproj.GenerateResource.cache" beforeDir="false" afterPath="$PROJECT_DIR$/task4Forms/obj/Debug/task4Forms.csproj.GenerateResource.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/task4Forms/obj/Debug/task4Forms.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/task4Forms/obj/Debug/task4Forms.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task4Library/bin/Debug/task4Library.dll" beforeDir="false" afterPath="$PROJECT_DIR$/task4Library/bin/Debug/task4Library.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task4Library/bin/Debug/task4Library.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/task4Library/bin/Debug/task4Library.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task4Library/obj/Debug/task4Library.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/task4Library/obj/Debug/task4Library.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task4Library/obj/Debug/task4Library.dll" beforeDir="false" afterPath="$PROJECT_DIR$/task4Library/obj/Debug/task4Library.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task4Library/obj/Debug/task4Library.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/task4Library/obj/Debug/task4Library.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task6Forms/bin/Debug/task6Library.dll" beforeDir="false" afterPath="$PROJECT_DIR$/task6Forms/bin/Debug/task6Library.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task6Forms/bin/Debug/task6Library.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/task6Forms/bin/Debug/task6Library.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task6Forms/obj/Debug/task6Forms.csproj.GenerateResource.cache" beforeDir="false" afterPath="$PROJECT_DIR$/task6Forms/obj/Debug/task6Forms.csproj.GenerateResource.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/task6Forms/obj/Debug/task6Forms.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/task6Forms/obj/Debug/task6Forms.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task6Library/bin/Debug/task6Library.dll" beforeDir="false" afterPath="$PROJECT_DIR$/task6Library/bin/Debug/task6Library.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task6Library/bin/Debug/task6Library.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/task6Library/bin/Debug/task6Library.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task6Library/obj/Debug/task6Library.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/task6Library/obj/Debug/task6Library.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task6Library/obj/Debug/task6Library.dll" beforeDir="false" afterPath="$PROJECT_DIR$/task6Library/obj/Debug/task6Library.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task6Library/obj/Debug/task6Library.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/task6Library/obj/Debug/task6Library.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task7Forms/bin/Debug/task7Library.dll" beforeDir="false" afterPath="$PROJECT_DIR$/task7Forms/bin/Debug/task7Library.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task7Forms/bin/Debug/task7Library.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/task7Forms/bin/Debug/task7Library.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task7Forms/obj/Debug/task7Forms.csproj.GenerateResource.cache" beforeDir="false" afterPath="$PROJECT_DIR$/task7Forms/obj/Debug/task7Forms.csproj.GenerateResource.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/task7Forms/obj/Debug/task7Forms.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/task7Forms/obj/Debug/task7Forms.csprojAssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task8Library/Driver.cs" beforeDir="false" afterPath="$PROJECT_DIR$/task8Library/Driver.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task8Library/EmergencyService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/task8Library/EmergencyService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task7Library/bin/Debug/task7Library.dll" beforeDir="false" afterPath="$PROJECT_DIR$/task7Library/bin/Debug/task7Library.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task7Library/bin/Debug/task7Library.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/task7Library/bin/Debug/task7Library.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task7Library/obj/Debug/task7Library.dll" beforeDir="false" afterPath="$PROJECT_DIR$/task7Library/obj/Debug/task7Library.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task7Library/obj/Debug/task7Library.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/task7Library/obj/Debug/task7Library.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/task8Library/Emulation.cs" beforeDir="false" afterPath="$PROJECT_DIR$/task8Library/Emulation.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task8Library/TrolleyBuss.cs" beforeDir="false" afterPath="$PROJECT_DIR$/task8Library/TrolleyBuss.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task8Library/task8Library.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/task8Library/task8Library.csproj" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,6 +114,9 @@
     <setting file="file://$PROJECT_DIR$/task3Forms/Form1.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/task3Forms/Form1.Designer.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/task6Library/ElectricGuitar.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/task8Forms/Form1.Designer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/task8Forms/Form1.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/task8Forms/Program.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/task2Forms/Form1.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/task2Forms/Form1.Designer.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/task2Forms/Program.cs" root0="FORCE_HIGHLIGHTING" />
@@ -99,7 +152,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/MacOSApp1/ViewController.cs" />
         <option value="$PROJECT_DIR$/MacOSApp1/ViewController.designer.cs" />
         <option value="$PROJECT_DIR$/task2GUI/ViewController.cs" />
         <option value="$PROJECT_DIR$/task3/car/BaggageCar.cs" />
@@ -144,12 +196,13 @@
         <option value="$PROJECT_DIR$/task8Library/TrolleyBus.cs" />
         <option value="$PROJECT_DIR$/task6Library/Guitar.cs" />
         <option value="$PROJECT_DIR$/task8Library/Driver.cs" />
-        <option value="$PROJECT_DIR$/TestForAll/Program.cs" />
         <option value="$PROJECT_DIR$/task8Library/Coordinates.cs" />
         <option value="$PROJECT_DIR$/task8Library/Route.cs" />
         <option value="$PROJECT_DIR$/task8Library/TrolleyBuss.cs" />
-        <option value="$PROJECT_DIR$/task8Library/Emulation.cs" />
         <option value="$PROJECT_DIR$/task8Library/EmergencyService.cs" />
+        <option value="$PROJECT_DIR$/task8Forms/Form1.cs" />
+        <option value="$PROJECT_DIR$/task8Library/Emulation.cs" />
+        <option value="$PROJECT_DIR$/TestForAll/Program.cs" />
       </list>
     </option>
   </component>
@@ -173,7 +226,7 @@
     <property name="settings.editor.selected.configurable" value="configurable.group.editor" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
-  <component name="RunManager" selected=".NET Project.TestForAll">
+  <component name="RunManager" selected=".NET Project.task8Forms">
     <configuration name="TestForAll" type="DotNetProject" factoryName=".NET Project">
       <option name="EXE_PATH" value="" />
       <option name="PROGRAM_PARAMETERS" value="" />
@@ -224,24 +277,6 @@
       <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
       <option name="PROJECT_KIND" value="Console" />
       <option name="PROJECT_TFM" value="" />
-      <method v="2">
-        <option name="Build" />
-      </method>
-    </configuration>
-    <configuration name="task2Forms" type="DotNetProject" factoryName=".NET Project" temporary="true">
-      <option name="EXE_PATH" value="" />
-      <option name="PROGRAM_PARAMETERS" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="PASS_PARENT_ENVS" value="1" />
-      <option name="USE_EXTERNAL_CONSOLE" value="0" />
-      <option name="USE_MONO" value="0" />
-      <option name="RUNTIME_ARGUMENTS" value="" />
-      <option name="PROJECT_PATH" value="$PROJECT_DIR$/task2Forms/task2Forms.csproj" />
-      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
-      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
-      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
-      <option name="PROJECT_KIND" value="Console" />
-      <option name="PROJECT_TFM" value=".NETFramework,Version=v4.8" />
       <method v="2">
         <option name="Build" />
       </method>
@@ -354,6 +389,24 @@
         <option name="Build" />
       </method>
     </configuration>
+    <configuration name="task8Forms" type="DotNetProject" factoryName=".NET Project" temporary="true">
+      <option name="EXE_PATH" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/task8Forms/task8Forms.csproj" />
+      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
+      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
+      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
+      <option name="PROJECT_KIND" value="Console" />
+      <option name="PROJECT_TFM" value=".NETFramework,Version=v4.8" />
+      <method v="2">
+        <option name="Build" />
+      </method>
+    </configuration>
     <configuration name="MacOSApp1" type="XamarinMacProject" factoryName="Xamarin.Mac" singleton="false">
       <option name="PROJECT_PATH" value="$PROJECT_DIR$/MacOSApp1/MacOSApp1.csproj" />
       <option name="PROGRAM_PARAMETERS" value="" />
@@ -383,11 +436,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue=".NET Project.task8Forms" />
         <item itemvalue=".NET Project.task7Forms" />
         <item itemvalue=".NET Project.task3Forms" />
         <item itemvalue=".NET Project.task6Forms" />
         <item itemvalue=".NET Project.task4Forms" />
-        <item itemvalue=".NET Project.task2Forms" />
       </list>
     </recent_temporary>
   </component>
@@ -421,7 +474,9 @@
       <workItem from="1607113645639" duration="7353000" />
       <workItem from="1607413152509" duration="8972000" />
       <workItem from="1607433586823" duration="11000" />
-      <workItem from="1607434073005" duration="8421000" />
+      <workItem from="1607434073005" duration="8663000" />
+      <workItem from="1607502346742" duration="1671000" />
+      <workItem from="1607514669088" duration="6492000" />
     </task>
     <task id="LOCAL-00001" summary="task2Forms">
       <created>1601324841721</created>
@@ -486,7 +541,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607365215217</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="add Coordinates">
+      <created>1607461495131</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1607461495131</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -516,151 +578,152 @@
     <MESSAGE value="7" />
     <MESSAGE value="7 done" />
     <MESSAGE value="last" />
-    <option name="LAST_COMMIT_MESSAGE" value="last" />
+    <MESSAGE value="add Coordinates" />
+    <option name="LAST_COMMIT_MESSAGE" value="add Coordinates" />
   </component>
   <component name="WindowStateProjectService">
     <state x="644" y="150" key="#task3" timestamp="1607085967044">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="644" y="150" key="#task3/0.0.1920.1050@0.0.1920.1050" timestamp="1607085967044" />
-    <state width="1877" height="538" key="GridCell.Tab.0.bottom" timestamp="1607460454564">
+    <state width="1877" height="248" key="GridCell.Tab.0.bottom" timestamp="1607520006040">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state width="1238" height="88" key="GridCell.Tab.0.bottom/0.0.1280.760@0.0.1280.760" timestamp="1601326627710" />
     <state width="1238" height="212" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1607260752289" />
-    <state width="1877" height="538" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1607460454564" />
+    <state width="1877" height="248" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1607520006040" />
     <state width="1238" height="212" key="GridCell.Tab.0.bottom/0.23.1280.737@0.23.1280.737" timestamp="1601201017990" />
-    <state width="1877" height="538" key="GridCell.Tab.0.center" timestamp="1607460454564">
+    <state width="1877" height="248" key="GridCell.Tab.0.center" timestamp="1607520006040">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state width="1238" height="88" key="GridCell.Tab.0.center/0.0.1280.760@0.0.1280.760" timestamp="1601326627710" />
     <state width="1238" height="212" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1607260752288" />
-    <state width="1877" height="538" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1607460454564" />
+    <state width="1877" height="248" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1607520006040" />
     <state width="1238" height="212" key="GridCell.Tab.0.center/0.23.1280.737@0.23.1280.737" timestamp="1601201017988" />
-    <state width="1877" height="538" key="GridCell.Tab.0.left" timestamp="1607460454564">
+    <state width="1877" height="248" key="GridCell.Tab.0.left" timestamp="1607520006040">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state width="1238" height="88" key="GridCell.Tab.0.left/0.0.1280.760@0.0.1280.760" timestamp="1601326627710" />
     <state width="1238" height="212" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1607260752287" />
-    <state width="1877" height="538" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1607460454564" />
+    <state width="1877" height="248" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1607520006040" />
     <state width="1238" height="212" key="GridCell.Tab.0.left/0.23.1280.737@0.23.1280.737" timestamp="1601201017986" />
-    <state width="1877" height="538" key="GridCell.Tab.0.right" timestamp="1607460454564">
+    <state width="1877" height="248" key="GridCell.Tab.0.right" timestamp="1607520006040">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state width="1238" height="88" key="GridCell.Tab.0.right/0.0.1280.760@0.0.1280.760" timestamp="1601326627710" />
     <state width="1238" height="212" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1607260752288" />
-    <state width="1877" height="538" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1607460454564" />
+    <state width="1877" height="248" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1607520006040" />
     <state width="1238" height="212" key="GridCell.Tab.0.right/0.23.1280.737@0.23.1280.737" timestamp="1601201017989" />
-    <state width="1877" height="452" key="GridCell.Tab.1.bottom" timestamp="1607424683763">
+    <state width="1877" height="452" key="GridCell.Tab.1.bottom" timestamp="1607461507662">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state width="1238" height="236" key="GridCell.Tab.1.bottom/0.0.1280.760@0.0.1280.760" timestamp="1601324427243" />
     <state width="1238" height="291" key="GridCell.Tab.1.bottom/0.0.1280.800@0.0.1280.800" timestamp="1601038997115" />
-    <state width="1877" height="452" key="GridCell.Tab.1.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1607424683763" />
+    <state width="1877" height="452" key="GridCell.Tab.1.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1607461507662" />
     <state width="1238" height="291" key="GridCell.Tab.1.bottom/0.23.1280.737@0.23.1280.737" timestamp="1601053889145" />
-    <state width="1877" height="452" key="GridCell.Tab.1.center" timestamp="1607424683763">
+    <state width="1877" height="452" key="GridCell.Tab.1.center" timestamp="1607461507662">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state width="1238" height="236" key="GridCell.Tab.1.center/0.0.1280.760@0.0.1280.760" timestamp="1601324427243" />
     <state width="1238" height="291" key="GridCell.Tab.1.center/0.0.1280.800@0.0.1280.800" timestamp="1601038997113" />
-    <state width="1877" height="452" key="GridCell.Tab.1.center/0.0.1920.1050@0.0.1920.1050" timestamp="1607424683763" />
+    <state width="1877" height="452" key="GridCell.Tab.1.center/0.0.1920.1050@0.0.1920.1050" timestamp="1607461507662" />
     <state width="1238" height="291" key="GridCell.Tab.1.center/0.23.1280.737@0.23.1280.737" timestamp="1601053889144" />
-    <state width="1877" height="452" key="GridCell.Tab.1.left" timestamp="1607424683763">
+    <state width="1877" height="452" key="GridCell.Tab.1.left" timestamp="1607461507662">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state width="1238" height="236" key="GridCell.Tab.1.left/0.0.1280.760@0.0.1280.760" timestamp="1601324427243" />
     <state width="1238" height="291" key="GridCell.Tab.1.left/0.0.1280.800@0.0.1280.800" timestamp="1601038997112" />
-    <state width="1877" height="452" key="GridCell.Tab.1.left/0.0.1920.1050@0.0.1920.1050" timestamp="1607424683763" />
+    <state width="1877" height="452" key="GridCell.Tab.1.left/0.0.1920.1050@0.0.1920.1050" timestamp="1607461507662" />
     <state width="1238" height="291" key="GridCell.Tab.1.left/0.23.1280.737@0.23.1280.737" timestamp="1601053889144" />
-    <state width="1877" height="452" key="GridCell.Tab.1.right" timestamp="1607424683763">
+    <state width="1877" height="452" key="GridCell.Tab.1.right" timestamp="1607461507662">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state width="1238" height="236" key="GridCell.Tab.1.right/0.0.1280.760@0.0.1280.760" timestamp="1601324427243" />
     <state width="1238" height="291" key="GridCell.Tab.1.right/0.0.1280.800@0.0.1280.800" timestamp="1601038997113" />
-    <state width="1877" height="452" key="GridCell.Tab.1.right/0.0.1920.1050@0.0.1920.1050" timestamp="1607424683763" />
+    <state width="1877" height="452" key="GridCell.Tab.1.right/0.0.1920.1050@0.0.1920.1050" timestamp="1607461507662" />
     <state width="1238" height="291" key="GridCell.Tab.1.right/0.23.1280.737@0.23.1280.737" timestamp="1601053889145" />
-    <state width="1877" height="452" key="GridCell.Tab.2.bottom" timestamp="1607424683763">
+    <state width="1877" height="452" key="GridCell.Tab.2.bottom" timestamp="1607461507662">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state width="1238" height="236" key="GridCell.Tab.2.bottom/0.0.1280.760@0.0.1280.760" timestamp="1601324427243" />
     <state width="1238" height="291" key="GridCell.Tab.2.bottom/0.0.1280.800@0.0.1280.800" timestamp="1601038997117" />
-    <state width="1877" height="452" key="GridCell.Tab.2.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1607424683763" />
+    <state width="1877" height="452" key="GridCell.Tab.2.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1607461507662" />
     <state width="1238" height="291" key="GridCell.Tab.2.bottom/0.23.1280.737@0.23.1280.737" timestamp="1601053889146" />
-    <state width="1877" height="452" key="GridCell.Tab.2.center" timestamp="1607424683763">
+    <state width="1877" height="452" key="GridCell.Tab.2.center" timestamp="1607461507662">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state width="1238" height="236" key="GridCell.Tab.2.center/0.0.1280.760@0.0.1280.760" timestamp="1601324427243" />
     <state width="1238" height="291" key="GridCell.Tab.2.center/0.0.1280.800@0.0.1280.800" timestamp="1601038997116" />
-    <state width="1877" height="452" key="GridCell.Tab.2.center/0.0.1920.1050@0.0.1920.1050" timestamp="1607424683763" />
+    <state width="1877" height="452" key="GridCell.Tab.2.center/0.0.1920.1050@0.0.1920.1050" timestamp="1607461507662" />
     <state width="1238" height="291" key="GridCell.Tab.2.center/0.23.1280.737@0.23.1280.737" timestamp="1601053889146" />
-    <state width="1877" height="452" key="GridCell.Tab.2.left" timestamp="1607424683763">
+    <state width="1877" height="452" key="GridCell.Tab.2.left" timestamp="1607461507662">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state width="1238" height="236" key="GridCell.Tab.2.left/0.0.1280.760@0.0.1280.760" timestamp="1601324427243" />
     <state width="1238" height="291" key="GridCell.Tab.2.left/0.0.1280.800@0.0.1280.800" timestamp="1601038997115" />
-    <state width="1877" height="452" key="GridCell.Tab.2.left/0.0.1920.1050@0.0.1920.1050" timestamp="1607424683763" />
+    <state width="1877" height="452" key="GridCell.Tab.2.left/0.0.1920.1050@0.0.1920.1050" timestamp="1607461507662" />
     <state width="1238" height="291" key="GridCell.Tab.2.left/0.23.1280.737@0.23.1280.737" timestamp="1601053889145" />
-    <state width="1877" height="452" key="GridCell.Tab.2.right" timestamp="1607424683763">
+    <state width="1877" height="452" key="GridCell.Tab.2.right" timestamp="1607461507662">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state width="1238" height="236" key="GridCell.Tab.2.right/0.0.1280.760@0.0.1280.760" timestamp="1601324427243" />
     <state width="1238" height="291" key="GridCell.Tab.2.right/0.0.1280.800@0.0.1280.800" timestamp="1601038997116" />
-    <state width="1877" height="452" key="GridCell.Tab.2.right/0.0.1920.1050@0.0.1920.1050" timestamp="1607424683763" />
+    <state width="1877" height="452" key="GridCell.Tab.2.right/0.0.1920.1050@0.0.1920.1050" timestamp="1607461507662" />
     <state width="1238" height="291" key="GridCell.Tab.2.right/0.23.1280.737@0.23.1280.737" timestamp="1601053889146" />
-    <state width="1877" height="452" key="GridCell.Tab.3.bottom" timestamp="1607424683763">
+    <state width="1877" height="452" key="GridCell.Tab.3.bottom" timestamp="1607461507662">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state width="1238" height="236" key="GridCell.Tab.3.bottom/0.0.1280.760@0.0.1280.760" timestamp="1601324427243" />
     <state width="1238" height="291" key="GridCell.Tab.3.bottom/0.0.1280.800@0.0.1280.800" timestamp="1601038997119" />
-    <state width="1877" height="452" key="GridCell.Tab.3.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1607424683763" />
+    <state width="1877" height="452" key="GridCell.Tab.3.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1607461507662" />
     <state width="1238" height="291" key="GridCell.Tab.3.bottom/0.23.1280.737@0.23.1280.737" timestamp="1601053889148" />
-    <state width="1877" height="452" key="GridCell.Tab.3.center" timestamp="1607424683763">
+    <state width="1877" height="452" key="GridCell.Tab.3.center" timestamp="1607461507662">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state width="1238" height="236" key="GridCell.Tab.3.center/0.0.1280.760@0.0.1280.760" timestamp="1601324427243" />
     <state width="1238" height="291" key="GridCell.Tab.3.center/0.0.1280.800@0.0.1280.800" timestamp="1601038997118" />
-    <state width="1877" height="452" key="GridCell.Tab.3.center/0.0.1920.1050@0.0.1920.1050" timestamp="1607424683763" />
+    <state width="1877" height="452" key="GridCell.Tab.3.center/0.0.1920.1050@0.0.1920.1050" timestamp="1607461507662" />
     <state width="1238" height="291" key="GridCell.Tab.3.center/0.23.1280.737@0.23.1280.737" timestamp="1601053889147" />
-    <state width="1877" height="452" key="GridCell.Tab.3.left" timestamp="1607424683763">
+    <state width="1877" height="452" key="GridCell.Tab.3.left" timestamp="1607461507662">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state width="1238" height="236" key="GridCell.Tab.3.left/0.0.1280.760@0.0.1280.760" timestamp="1601324427243" />
     <state width="1238" height="291" key="GridCell.Tab.3.left/0.0.1280.800@0.0.1280.800" timestamp="1601038997117" />
-    <state width="1877" height="452" key="GridCell.Tab.3.left/0.0.1920.1050@0.0.1920.1050" timestamp="1607424683763" />
+    <state width="1877" height="452" key="GridCell.Tab.3.left/0.0.1920.1050@0.0.1920.1050" timestamp="1607461507662" />
     <state width="1238" height="291" key="GridCell.Tab.3.left/0.23.1280.737@0.23.1280.737" timestamp="1601053889147" />
-    <state width="1877" height="452" key="GridCell.Tab.3.right" timestamp="1607424683763">
+    <state width="1877" height="452" key="GridCell.Tab.3.right" timestamp="1607461507662">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state width="1238" height="236" key="GridCell.Tab.3.right/0.0.1280.760@0.0.1280.760" timestamp="1601324427243" />
     <state width="1238" height="291" key="GridCell.Tab.3.right/0.0.1280.800@0.0.1280.800" timestamp="1601038997118" />
-    <state width="1877" height="452" key="GridCell.Tab.3.right/0.0.1920.1050@0.0.1920.1050" timestamp="1607424683763" />
+    <state width="1877" height="452" key="GridCell.Tab.3.right/0.0.1920.1050@0.0.1920.1050" timestamp="1607461507662" />
     <state width="1238" height="291" key="GridCell.Tab.3.right/0.23.1280.737@0.23.1280.737" timestamp="1601053889147" />
-    <state width="1877" height="452" key="GridCell.Tab.4.bottom" timestamp="1607424683763">
+    <state width="1877" height="452" key="GridCell.Tab.4.bottom" timestamp="1607461507662">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state width="1238" height="236" key="GridCell.Tab.4.bottom/0.0.1280.760@0.0.1280.760" timestamp="1601324427243" />
-    <state width="1877" height="452" key="GridCell.Tab.4.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1607424683763" />
-    <state width="1877" height="452" key="GridCell.Tab.4.center" timestamp="1607424683763">
+    <state width="1877" height="452" key="GridCell.Tab.4.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1607461507662" />
+    <state width="1877" height="452" key="GridCell.Tab.4.center" timestamp="1607461507662">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state width="1238" height="236" key="GridCell.Tab.4.center/0.0.1280.760@0.0.1280.760" timestamp="1601324427243" />
-    <state width="1877" height="452" key="GridCell.Tab.4.center/0.0.1920.1050@0.0.1920.1050" timestamp="1607424683763" />
-    <state width="1877" height="452" key="GridCell.Tab.4.left" timestamp="1607424683763">
+    <state width="1877" height="452" key="GridCell.Tab.4.center/0.0.1920.1050@0.0.1920.1050" timestamp="1607461507662" />
+    <state width="1877" height="452" key="GridCell.Tab.4.left" timestamp="1607461507662">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state width="1238" height="236" key="GridCell.Tab.4.left/0.0.1280.760@0.0.1280.760" timestamp="1601324427243" />
-    <state width="1877" height="452" key="GridCell.Tab.4.left/0.0.1920.1050@0.0.1920.1050" timestamp="1607424683763" />
-    <state width="1877" height="452" key="GridCell.Tab.4.right" timestamp="1607424683763">
+    <state width="1877" height="452" key="GridCell.Tab.4.left/0.0.1920.1050@0.0.1920.1050" timestamp="1607461507662" />
+    <state width="1877" height="452" key="GridCell.Tab.4.right" timestamp="1607461507662">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state width="1238" height="236" key="GridCell.Tab.4.right/0.0.1280.760@0.0.1280.760" timestamp="1601324427243" />
-    <state width="1877" height="452" key="GridCell.Tab.4.right/0.0.1920.1050@0.0.1920.1050" timestamp="1607424683763" />
-    <state x="240" y="116" key="Rider.ProjectTemplateDialog.Size" timestamp="1607255381164">
-      <screen x="0" y="0" width="1280" height="800" />
+    <state width="1877" height="452" key="GridCell.Tab.4.right/0.0.1920.1050@0.0.1920.1050" timestamp="1607461507662" />
+    <state x="360" y="133" key="Rider.ProjectTemplateDialog.Size" timestamp="1607502691694">
+      <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="240" y="96" key="Rider.ProjectTemplateDialog.Size/0.0.1280.760@0.0.1280.760" timestamp="1601324967440" />
     <state x="240" y="116" key="Rider.ProjectTemplateDialog.Size/0.0.1280.800@0.0.1280.800" timestamp="1607255381164" />
-    <state x="360" y="133" key="Rider.ProjectTemplateDialog.Size/0.0.1920.1050@0.0.1920.1050" timestamp="1607090096330" />
+    <state x="360" y="133" key="Rider.ProjectTemplateDialog.Size/0.0.1920.1050@0.0.1920.1050" timestamp="1607502691694" />
     <state x="240" y="130" key="Rider.ProjectTemplateDialog.Size/0.23.1280.736@0.23.1280.736" timestamp="1600764030120" />
     <state x="240" y="116" key="Rider.ProjectTemplateDialog.Size/0.23.1280.737@0.23.1280.737" timestamp="1601199094042" />
     <state x="633" y="106" key="RiderGenerateDialog" timestamp="1607459625258">
@@ -700,10 +763,10 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="616" y="243" key="run.anything.popup/0.0.1920.1050@0.0.1920.1050" timestamp="1606470496071" />
-    <state x="623" y="227" width="672" height="678" key="search.everywhere.popup" timestamp="1607458501761">
+    <state x="623" y="227" width="672" height="678" key="search.everywhere.popup" timestamp="1607519876327">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="415" y="173" width="672" height="517" key="search.everywhere.popup/0.0.1280.800@0.0.1280.800" timestamp="1607160226188" />
-    <state x="623" y="227" width="672" height="678" key="search.everywhere.popup/0.0.1920.1050@0.0.1920.1050" timestamp="1607458501761" />
+    <state x="623" y="227" width="672" height="678" key="search.everywhere.popup/0.0.1920.1050@0.0.1920.1050" timestamp="1607519876327" />
   </component>
 </project>
