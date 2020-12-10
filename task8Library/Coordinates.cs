@@ -27,15 +27,18 @@ namespace task8Library
 
         public void MoveTo(Coordinates coordinates)
         {
+            int xStep = Math.Abs(X-coordinates.X)<Step ? Math.Abs(X - coordinates.X) : Step;
             if (X > coordinates.X)
-                X-=Step;
+                X-=xStep;
             else if (X < coordinates.X)
-                X+=Step;
+                X+=xStep;
+            
+            int yStep = Math.Abs(Y-coordinates.Y)<Step ? Math.Abs(Y - coordinates.Y) : Step;
 
             if (Y > coordinates.Y)
-                Y-=Step;
+                Y-=yStep;
             else if (Y < coordinates.Y)
-                Y+=Step;
+                Y+=yStep;
         }
     }
 }

@@ -20,16 +20,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="554aa1b8-da8f-4286-920e-dc799b17a46d" name="Default Changelist" comment="started 8 forms">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.information_tecnologes/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.information_tecnologes/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestForAll/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TestForAll/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestForAll/obj/Debug/TestForAll.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/TestForAll/obj/Debug/TestForAll.csprojAssemblyReference.cache" afterDir="false" />
+    <list default="true" id="554aa1b8-da8f-4286-920e-dc799b17a46d" name="Default Changelist" comment="colorful blocks are running">
       <change beforePath="$PROJECT_DIR$/task8Forms/Form1.Designer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/task8Forms/Form1.Designer.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task8Forms/Form1.cs" beforeDir="false" afterPath="$PROJECT_DIR$/task8Forms/Form1.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/task8Library/Coordinates.cs" beforeDir="false" afterPath="$PROJECT_DIR$/task8Library/Coordinates.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task8Library/Driver.cs" beforeDir="false" afterPath="$PROJECT_DIR$/task8Library/Driver.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task8Library/Emulation.cs" beforeDir="false" afterPath="$PROJECT_DIR$/task8Library/Emulation.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task8Library/TrolleyBuss.cs" beforeDir="false" afterPath="$PROJECT_DIR$/task8Library/TrolleyBuss.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -133,10 +126,10 @@
         <option value="$PROJECT_DIR$/TestForAll/Program.cs" />
         <option value="$PROJECT_DIR$/task8Library/TrolleyBuss.cs" />
         <option value="$PROJECT_DIR$/task8Library/EmergencyService.cs" />
-        <option value="$PROJECT_DIR$/task8Library/Coordinates.cs" />
         <option value="$PROJECT_DIR$/task8Library/Driver.cs" />
         <option value="$PROJECT_DIR$/task8Library/Emulation.cs" />
         <option value="$PROJECT_DIR$/task8Forms/Form1.cs" />
+        <option value="$PROJECT_DIR$/task8Library/Coordinates.cs" />
       </list>
     </option>
   </component>
@@ -412,7 +405,7 @@
       <workItem from="1607502346742" duration="1671000" />
       <workItem from="1607514669088" duration="6780000" />
       <workItem from="1607616332395" duration="1242000" />
-      <workItem from="1607626713297" duration="6949000" />
+      <workItem from="1607626713297" duration="7685000" />
     </task>
     <task id="LOCAL-00001" summary="task2Forms">
       <created>1601324841721</created>
@@ -491,7 +484,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607521470214</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="colorful blocks are running">
+      <created>1607633886062</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1607633886062</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -523,40 +523,41 @@
     <MESSAGE value="last" />
     <MESSAGE value="add Coordinates" />
     <MESSAGE value="started 8 forms" />
-    <option name="LAST_COMMIT_MESSAGE" value="started 8 forms" />
+    <MESSAGE value="colorful blocks are running" />
+    <option name="LAST_COMMIT_MESSAGE" value="colorful blocks are running" />
   </component>
   <component name="WindowStateProjectService">
     <state x="644" y="150" key="#task3" timestamp="1607085967044">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="644" y="150" key="#task3/0.0.1920.1050@0.0.1920.1050" timestamp="1607085967044" />
-    <state width="1877" height="247" key="GridCell.Tab.0.bottom" timestamp="1607633610257">
+    <state width="1877" height="247" key="GridCell.Tab.0.bottom" timestamp="1607633734562">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state width="1238" height="88" key="GridCell.Tab.0.bottom/0.0.1280.760@0.0.1280.760" timestamp="1601326627710" />
     <state width="1238" height="212" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1607260752289" />
-    <state width="1877" height="247" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1607633610257" />
+    <state width="1877" height="247" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1607633734562" />
     <state width="1238" height="212" key="GridCell.Tab.0.bottom/0.23.1280.737@0.23.1280.737" timestamp="1601201017990" />
-    <state width="1877" height="247" key="GridCell.Tab.0.center" timestamp="1607633610257">
+    <state width="1877" height="247" key="GridCell.Tab.0.center" timestamp="1607633734561">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state width="1238" height="88" key="GridCell.Tab.0.center/0.0.1280.760@0.0.1280.760" timestamp="1601326627710" />
     <state width="1238" height="212" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1607260752288" />
-    <state width="1877" height="247" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1607633610257" />
+    <state width="1877" height="247" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1607633734561" />
     <state width="1238" height="212" key="GridCell.Tab.0.center/0.23.1280.737@0.23.1280.737" timestamp="1601201017988" />
-    <state width="1877" height="247" key="GridCell.Tab.0.left" timestamp="1607633610257">
+    <state width="1877" height="247" key="GridCell.Tab.0.left" timestamp="1607633734561">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state width="1238" height="88" key="GridCell.Tab.0.left/0.0.1280.760@0.0.1280.760" timestamp="1601326627710" />
     <state width="1238" height="212" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1607260752287" />
-    <state width="1877" height="247" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1607633610257" />
+    <state width="1877" height="247" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1607633734561" />
     <state width="1238" height="212" key="GridCell.Tab.0.left/0.23.1280.737@0.23.1280.737" timestamp="1601201017986" />
-    <state width="1877" height="247" key="GridCell.Tab.0.right" timestamp="1607633610257">
+    <state width="1877" height="247" key="GridCell.Tab.0.right" timestamp="1607633734562">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state width="1238" height="88" key="GridCell.Tab.0.right/0.0.1280.760@0.0.1280.760" timestamp="1601326627710" />
     <state width="1238" height="212" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1607260752288" />
-    <state width="1877" height="247" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1607633610257" />
+    <state width="1877" height="247" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1607633734562" />
     <state width="1238" height="212" key="GridCell.Tab.0.right/0.23.1280.737@0.23.1280.737" timestamp="1601201017989" />
     <state width="1877" height="451" key="GridCell.Tab.1.bottom" timestamp="1607633549737">
       <screen x="0" y="0" width="1920" height="1050" />
