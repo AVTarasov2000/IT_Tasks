@@ -6,11 +6,13 @@ namespace task8Library
     {
         public int X { get; set; }
         public int Y { get; set; }
+        public int Step { get; set; }
 
-        public Coordinates(int x, int y)
+        public Coordinates(int x, int y, int step)
         {
             X = x;
             Y = y;
+            Step = step;
         }
 
         public int Distance(Coordinates coordinates)
@@ -20,20 +22,20 @@ namespace task8Library
 
         public bool IsOn(Coordinates coordinates)
         {
-            return coordinates.X == X && coordinates.Y == Y;
+            return Math.Abs(coordinates.X - X)<Step && Math.Abs(coordinates.Y - Y)<Step;
         }
 
         public void MoveTo(Coordinates coordinates)
         {
             if (X > coordinates.X)
-                X--;
+                X-=Step;
             else if (X < coordinates.X)
-                X++;
+                X+=Step;
 
             if (Y > coordinates.Y)
-                Y--;
+                Y-=Step;
             else if (Y < coordinates.Y)
-                Y++;
+                Y+=Step;
         }
     }
 }

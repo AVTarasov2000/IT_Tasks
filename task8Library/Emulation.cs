@@ -10,6 +10,8 @@ namespace task8Library
 
         public List<TrolleyBuss> TrolleyBusses { get; } = new List<TrolleyBuss>();
         public EmergencyService EmergencyService { get; }
+        
+        private List<Thread> _threads = new List<Thread>();
         public Emulation(EmergencyService emergencyService, List<TrolleyBuss> trolleyBusses)
         {
             EmergencyService = emergencyService;
@@ -20,7 +22,6 @@ namespace task8Library
         public delegate void MethodContainer(string message);
         public void Start()
         {
-            // SetActors();
             foreach (var trolleyBuss in TrolleyBusses)
             {
                 trolleyBuss.OnActionWriting += EchoFunc;
@@ -33,29 +34,26 @@ namespace task8Library
                 bussThread.Start();
                 Thread driverThread = new Thread(trolleyBuss.Driver.Start);
                 driverThread.Start();
-            }
+                _threads.Add(bussThread);
+                _threads.Add(driverThread);
+            };
             Thread thread = new Thread(EmergencyService.Start);
             thread.Start();
+            _threads.Add(thread);
         }
-
-        private void SetActors()
-        {
-            TrolleyBuss tb1 = new TrolleyBuss(10, 10, 
-                new Coordinates(1,1),
-                new Route(new List<Coordinates>(){new Coordinates(20, 50), new Coordinates(2, 2)}));
-            Driver driver1 = new Driver();
-            tb1.Driver = driver1;
-            driver1.OnActionWriting += EchoFunc;
-            driver1.TrolleyBuss = tb1;
-            tb1.OnActionWriting += EchoFunc;
-            tb1.OnSimpleBrake += driver1.FixBuss;
-            tb1.OnComplexBrake += EmergencyService.NeedToBeFixed;
-            TrolleyBusses.Add(tb1);
-        }
+        
 
         public void EchoFunc(string message)
         {
             Console.WriteLine(message);
+        }
+
+        public void Stop()
+        {
+            foreach (var thread in _threads)
+            {
+                thread.Abort();
+            }
         }
     }
 }

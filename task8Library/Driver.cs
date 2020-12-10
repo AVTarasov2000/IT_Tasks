@@ -15,7 +15,7 @@ namespace task8Library
                 {
                     FixBuss(TrolleyBuss);
                 }
-                Thread.Sleep(500);
+                Thread.Sleep(1000);
             }
         }
 

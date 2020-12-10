@@ -39,7 +39,7 @@ namespace task8Library
                 {
                     Move();
                 }
-                Thread.Sleep(500);
+                Thread.Sleep(100);
             }
         }
 
