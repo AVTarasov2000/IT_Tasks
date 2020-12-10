@@ -24,32 +24,37 @@ namespace task8Library
             {
                 if (NeedHelp.Count == 0)
                 {
-                    Thread.Sleep(500);
+                    GoTo(BaseCoordinates);
                 }
                 else
                 {
                     TrolleyBuss tb = NeedHelp[0];
-                    GoTo(tb.MyCoordinates);
+                    while (!TargetCoordinates.IsOn(tb.MyCoordinates))
+                    {
+                        GoTo(tb.MyCoordinates);
+                    }
                     FixBuss(tb);
-                    GoTo(BaseCoordinates);
                 }
             }
+        }
+
+        public bool IsWaiting()
+        {
+            return TargetCoordinates.IsOn(BaseCoordinates);
         }
         
         public void GoTo(Coordinates coordinates)
         {
-            while (true)
+            Thread.Sleep(100);
+            if (TargetCoordinates.IsOn(coordinates))
             {
-                Thread.Sleep(100);
-                if (TargetCoordinates.IsOn(coordinates))
-                {
-                    return;
-                }
-                else
-                {
-                    TargetCoordinates.MoveTo(coordinates);
-                }
+                return;
             }
+            else
+            {
+                TargetCoordinates.MoveTo(coordinates);
+            }
+            
         }
 
         public void NeedToBeFixed(TrolleyBuss tb)
@@ -58,6 +63,7 @@ namespace task8Library
         }
         public void FixBuss(TrolleyBuss trolleyBuss)
         {
+            Thread.Sleep(2000);
             trolleyBuss.NeedEmergencyHelp = false;
             OnActionWritingFunction("the buss fixed by service");
             NeedHelp.Remove(trolleyBuss);

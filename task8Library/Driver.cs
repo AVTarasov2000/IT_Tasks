@@ -21,6 +21,7 @@ namespace task8Library
 
         public void FixBuss(TrolleyBuss trolleyBuss)
         {
+            Thread.Sleep(1000);
             trolleyBuss.NeedDriverHelp = false;
             OnActionWritingFunction("the buss fixed by driver");
         }

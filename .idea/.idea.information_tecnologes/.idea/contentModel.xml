@@ -190,6 +190,9 @@
           <e p="Settings.Designer.cs" t="Include" />
           <e p="Settings.settings" t="Include" />
         </e>
+        <e p="resources" t="Include">
+          <e p="kisspng-school-bus.jpg" t="Include" />
+        </e>
         <e p="task8Forms.csproj" t="IncludeRecursive" />
       </e>
       <e p="task8Library" t="IncludeRecursive">

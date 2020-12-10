@@ -16,10 +16,25 @@ namespace task8Forms
     {
         private Emulation _emulation;
         private Thread _repaintThread = null;
+        private Image _busImage;
+        private Image _brokenBuss;
+        private Image _driverImage;
+        private Image _emergencyOnBase;
+        private Image _emergencyMooving;
         public Form1()
         {
             InitializeComponent();
             panel1.Paint += panel1_Paint;
+            System.IO.FileStream fs = new System.IO.FileStream(@"kisspng-school-bus.jpg", System.IO.FileMode.Open);
+            _busImage = Image.FromStream(fs);
+            fs = new System.IO.FileStream(@"broken-bus.jpg", System.IO.FileMode.Open);
+            _brokenBuss = Image.FromStream(fs);
+            fs = new System.IO.FileStream(@"driver.jpg", System.IO.FileMode.Open);
+            _driverImage = Image.FromStream(fs);
+            fs = new System.IO.FileStream(@"emergencyServise.png", System.IO.FileMode.Open);
+            _emergencyOnBase = Image.FromStream(fs);
+            fs = new System.IO.FileStream(@"emergencyMooving.png", System.IO.FileMode.Open);
+            _emergencyMooving = Image.FromStream(fs);
         }
 
         private void panel1_Paint(object sender, PaintEventArgs e)
@@ -33,6 +48,18 @@ namespace task8Forms
             {
                 return;
             }
+            
+
+            if (_emulation.EmergencyService.IsWaiting())
+            {
+                g.DrawImage(_emergencyOnBase, _emulation.EmergencyService.TargetCoordinates.X, _emulation.EmergencyService.TargetCoordinates.Y, 50,50);
+            }
+            else
+            {
+                g.DrawImage(_emergencyMooving, _emulation.EmergencyService.TargetCoordinates.X, _emulation.EmergencyService.TargetCoordinates.Y, 80,50);
+            }
+
+            
             foreach (var emulationTrolleyBuss in _emulation.TrolleyBusses)
             {
                 Point[] points = new Point[4];
@@ -41,22 +68,21 @@ namespace task8Forms
                 points[1] = new Point(emulationTrolleyBuss.MyCoordinates.X, emulationTrolleyBuss.MyCoordinates.Y+5);
                 points[2] = new Point(emulationTrolleyBuss.MyCoordinates.X+5, emulationTrolleyBuss.MyCoordinates.Y+5);
                 points[3] = new Point(emulationTrolleyBuss.MyCoordinates.X+5, emulationTrolleyBuss.MyCoordinates.Y);
-
-                Brush brush = (emulationTrolleyBuss.NeedDriverHelp || emulationTrolleyBuss.NeedEmergencyHelp)?new SolidBrush(Color.Red):new SolidBrush(Color.DarkGreen);
-
-                g.FillPolygon(brush, points);
+                
+                if (emulationTrolleyBuss.NeedEmergencyHelp)
+                {
+                    g.DrawImage(_brokenBuss, emulationTrolleyBuss.MyCoordinates.X, emulationTrolleyBuss.MyCoordinates.Y, 100,30);
+                    
+                }
+                else
+                {
+                    g.DrawImage(_busImage, emulationTrolleyBuss.MyCoordinates.X, emulationTrolleyBuss.MyCoordinates.Y, 100,30);
+                    if (emulationTrolleyBuss.NeedDriverHelp)
+                    {
+                        g.DrawImage(_driverImage, emulationTrolleyBuss.MyCoordinates.X+70, emulationTrolleyBuss.MyCoordinates.Y, 30,60);
+                    }
+                }
             }
-            
-            var emergencyPoints = new Point[4];
-
-            emergencyPoints[0] = new Point(_emulation.EmergencyService.TargetCoordinates.X, _emulation.EmergencyService.TargetCoordinates.Y);
-            emergencyPoints[1] = new Point(_emulation.EmergencyService.TargetCoordinates.X, _emulation.EmergencyService.TargetCoordinates.Y+5);
-            emergencyPoints[2] = new Point(_emulation.EmergencyService.TargetCoordinates.X+5, _emulation.EmergencyService.TargetCoordinates.Y+5);
-            emergencyPoints[3] = new Point(_emulation.EmergencyService.TargetCoordinates.X+5, _emulation.EmergencyService.TargetCoordinates.Y);
-
-            Brush emergencyBrush = new SolidBrush(Color.Blue);
-
-            g.FillPolygon(emergencyBrush, emergencyPoints);
             
         }
 
@@ -74,18 +100,32 @@ namespace task8Forms
             if (_repaintThread == null)
             {
                 int Step = 2;
-                TrolleyBuss tb1 = new TrolleyBuss(10, 1, 
+                TrolleyBuss tb1 = new TrolleyBuss((int) simpleBreakNumeric.Value, (int) complexBreakNumeric.Value,
                     new Coordinates(4,4,Step),
-                    new Route(new List<Coordinates>(){new Coordinates(4, 4, Step),
-                        new Coordinates(panel1.Width-4, 4, Step),
-                        new Coordinates(panel1.Width-4, panel1.Height-4, Step),
-                        new Coordinates(4, panel1.Height -4, Step)
+                    new Route(new List<Coordinates>(){
+                        new Coordinates(4, 4, Step),
+                        new Coordinates(panel1.Width-110, 4, Step),
+                        // new Coordinates(panel1.Width-4, panel1.Height-4, Step),
+                        // new Coordinates(4, panel1.Height -4, Step)
                     }));
                 Driver driver1 = new Driver();
                 tb1.Driver = driver1;
                 driver1.TrolleyBuss = tb1;
+
+                TrolleyBuss tb2 = new TrolleyBuss((int) simpleBreakNumeric.Value, (int) complexBreakNumeric.Value,
+                    new Coordinates(4, 100, Step),
+                    new Route(new List<Coordinates>(){
+                        // new Coordinates(4, 4, Step),
+                        // new Coordinates(panel1.Width-4, 4, Step),
+                        new Coordinates(4, 100, Step),
+                        new Coordinates(panel1.Width-110, 100, Step)
+                    }));
+                Driver driver2 = new Driver();
+                tb2.Driver = driver2;
+                driver2.TrolleyBuss = tb2;
+                
                 EmergencyService emergencyService = new EmergencyService(new Coordinates(panel1.Width/2,panel1.Height/2, Step), new Coordinates(panel1.Width/2,panel1.Height/2, Step));
-                _emulation = new Emulation(emergencyService, new List<TrolleyBuss>(){tb1});
+                _emulation = new Emulation(emergencyService, new List<TrolleyBuss>(){tb1, tb2});
                 _emulation.Start();
                 _repaintThread = new Thread(PanelRepaint);
                 _repaintThread.Start();
@@ -104,6 +144,11 @@ namespace task8Forms
         {
             _emulation?.Stop();
             _repaintThread?.Abort();
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+            throw new System.NotImplementedException();
         }
     }
 }

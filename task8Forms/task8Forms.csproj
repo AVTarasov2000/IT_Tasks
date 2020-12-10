@@ -85,5 +85,8 @@
         <Name>task8Library</Name>
       </ProjectReference>
     </ItemGroup>
+    <ItemGroup>
+      <Content Include="resources\kisspng-school-bus.jpg" />
+    </ItemGroup>
     <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
