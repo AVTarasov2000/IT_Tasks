@@ -9,13 +9,13 @@ namespace task8Library
     {
 
         public List<TrolleyBuss> TrolleyBusses { get; } = new List<TrolleyBuss>();
-        public EmergencyService EmergencyService { get; }
+        public EmergencyService EmergencyServiceImpl { get; }
         
         private List<Thread> _threads = new List<Thread>();
-        public Emulation(EmergencyService emergencyService, List<TrolleyBuss> trolleyBusses)
+        public Emulation(EmergencyService emergencyServiceImpl, List<TrolleyBuss> trolleyBusses)
         {
-            EmergencyService = emergencyService;
-            EmergencyService.OnActionWriting += EchoFunc;
+            EmergencyServiceImpl = emergencyServiceImpl;
+            // EmergencyServiceImpl.OnActionWriting += EchoFunc;
             TrolleyBusses = trolleyBusses;
         }
         public delegate void NeedHelp(TrolleyBuss tb);
@@ -28,7 +28,7 @@ namespace task8Library
                 trolleyBuss.Driver.OnActionWriting += EchoFunc;
                 trolleyBuss.OnActionWriting += EchoFunc;
                 trolleyBuss.OnSimpleBrake += trolleyBuss.Driver.FixBuss;
-                trolleyBuss.OnComplexBrake += EmergencyService.NeedToBeFixed;
+                trolleyBuss.OnComplexBrake += EmergencyServiceImpl.NeedToBeFixed;
                 
                 Thread bussThread = new Thread(trolleyBuss.Start);
                 bussThread.Start();
@@ -37,7 +37,7 @@ namespace task8Library
                 _threads.Add(bussThread);
                 _threads.Add(driverThread);
             };
-            Thread thread = new Thread(EmergencyService.Start);
+            Thread thread = new Thread(EmergencyServiceImpl.Start);
             thread.Start();
             _threads.Add(thread);
         }

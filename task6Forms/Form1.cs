@@ -25,12 +25,19 @@ namespace task6Forms
             MusicalInstruments = new List<MusicalInstrument>();
             InitializeComponent();
             AddColumns();
+            addInstrument("Cort-guitar");
+            addInstrument("Marshal-guitar");
         }
 
         private void addInstrumentButton_Click(object sender, EventArgs e)
         {
+            addInstrument(InstrumentName.Text);
+        }
+
+        private void addInstrument(string name)
+        {
             Guitar instrument = new ElectricGuitar();
-            instrument.Name = InstrumentName.Text;
+            instrument.Name = name;
             MusicalInstruments.Add(instrument);
             instrument.onConsoleWrite += MessageWriter;
             AddRow(instrument);
@@ -63,7 +70,7 @@ namespace task6Forms
             RemoveButtonColumn.Name = "Remove method";
             
             NameColumn = new  DataGridViewTextBoxColumn();
-            NameColumn.Name = "Task";
+            NameColumn.Name = "Name";
             NameColumn.DataPropertyName = "Id";
             NameColumn.ReadOnly = true;
             

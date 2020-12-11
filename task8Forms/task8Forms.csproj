@@ -80,6 +80,10 @@
         <None Include="App.config" />
     </ItemGroup>
     <ItemGroup>
+      <ProjectReference Include="..\task7Library\task7Library.csproj">
+        <Project>{1f9b4771-dc16-48b3-8eba-498ed5b067a0}</Project>
+        <Name>task7Library</Name>
+      </ProjectReference>
       <ProjectReference Include="..\task8Library\task8Library.csproj">
         <Project>{73d9207c-5a89-4206-a46e-878c9c493093}</Project>
         <Name>task8Library</Name>
