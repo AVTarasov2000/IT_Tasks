@@ -13,14 +13,12 @@ namespace task6
         public string ConnectToCombic()
         {
             ConsoleFunctionProcessing(String.Format("instrument {0} is connected", Name));
-            Console.WriteLine("instrument {0} is connected", Name);
             return String.Format("instrument {0} is connected", Name);
         }
 
         public string DisconectFromCombic()
         {
             ConsoleFunctionProcessing(String.Format("instrument {0} is disconnected", Name));
-            Console.WriteLine("instrument {0} is disconnected", Name);
             return String.Format("instrument {0} is connected", Name);
         }
     }

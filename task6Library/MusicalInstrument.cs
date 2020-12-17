@@ -2,11 +2,7 @@
 {
     public interface MusicalInstrument
     {
-        string Name
-        {
-            get;
-            set;
-        }
+        string Name { get; set; }
 
         string Play();
 

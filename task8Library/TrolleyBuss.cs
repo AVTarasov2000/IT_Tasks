@@ -17,7 +17,7 @@ namespace task8Library
         public bool NeedDriverHelp { get; set; }
         private int SimpleBrakeChance { get; }
         private int ComplexBrakeChance { get; }
-        private static Random Random { get; } = new Random();
+        public Random Random { get; set; }
 
         public TrolleyBuss(int simpleBrakeChance, int complexBrakeChance, Coordinates myCoordinates, Route route)
         {

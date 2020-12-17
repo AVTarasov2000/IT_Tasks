@@ -28,6 +28,8 @@ namespace task8Forms
         public Form1()
         {
             InitializeComponent();
+            dataGridView1.AutoSize = true;
+            className.AutoSizeMode = DataGridViewAutoSizeColumnMode.AllCells;
             panel1.Paint += panel1_Paint;
             
             _classLooker = new ClassLooker(@"C:\Users\Andrey\RiderProjects\IT_Tasks\task8Forms\bin\Debug\task8Library.dll");
@@ -47,11 +49,13 @@ namespace task8Forms
 
         private void SetListOfClasses()
         {
-            foreach (var allChildrenAndImpl in _classLooker.AllChildrenAndImpls(typeof(EmergencyService)))
+            foreach (var allChildrenAndImpl in _classLooker.AllChildrenAndImpls(typeof(IEmergencyService)))
             {
                 AddRow(allChildrenAndImpl.Name);
                 _types.Add(allChildrenAndImpl);
             }
+
+            _choosedType = _types[0];
         }
 
         private void AddRow(string className)
@@ -133,7 +137,7 @@ namespace task8Forms
                 }
 
                 Step *= 5;
-                EmergencyService emergencyServiceImpl = (EmergencyService) Activator.CreateInstance(_choosedType);
+                IEmergencyService emergencyServiceImpl = (IEmergencyService) Activator.CreateInstance(_choosedType);
                 emergencyServiceImpl.BaseCoordinates = new Coordinates(panel1.Width / 2, panel1.Height / 2, Step);
                 emergencyServiceImpl.TargetCoordinates = new Coordinates(panel1.Width / 2, panel1.Height / 2, Step);
                 _emulation = new Emulation(emergencyServiceImpl, allBusses);

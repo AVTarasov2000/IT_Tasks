@@ -9,11 +9,13 @@ namespace task8Library
     {
 
         public List<TrolleyBuss> TrolleyBusses { get; } = new List<TrolleyBuss>();
-        public EmergencyService EmergencyServiceImpl { get; }
+        public IEmergencyService EmergencyServiceImpl { get; }
         
         private List<Thread> _threads = new List<Thread>();
-        public Emulation(EmergencyService emergencyServiceImpl, List<TrolleyBuss> trolleyBusses)
+        private Random Random;
+        public Emulation(IEmergencyService emergencyServiceImpl, List<TrolleyBuss> trolleyBusses)
         {
+            Random = new Random();
             EmergencyServiceImpl = emergencyServiceImpl;
             // EmergencyServiceImpl.OnActionWriting += EchoFunc;
             TrolleyBusses = trolleyBusses;
@@ -29,7 +31,7 @@ namespace task8Library
                 trolleyBuss.OnActionWriting += EchoFunc;
                 trolleyBuss.OnSimpleBrake += trolleyBuss.Driver.FixBuss;
                 trolleyBuss.OnComplexBrake += EmergencyServiceImpl.NeedToBeFixed;
-                
+                trolleyBuss.Random = Random;
                 Thread bussThread = new Thread(trolleyBuss.Start);
                 bussThread.Start();
                 Thread driverThread = new Thread(trolleyBuss.Driver.Start);

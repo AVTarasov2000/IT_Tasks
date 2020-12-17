@@ -1,6 +1,6 @@
 ﻿namespace task8Library
 {
-    public interface EmergencyService
+    public interface IEmergencyService
     {
         void Start();
         bool IsWaiting();

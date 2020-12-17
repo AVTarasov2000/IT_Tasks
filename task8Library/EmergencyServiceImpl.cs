@@ -3,7 +3,7 @@ using System.Threading;
 
 namespace task8Library
 {
-    public class EmergencyServiceImpl: EmergencyService
+    public class EmergencyServiceImpl: IEmergencyService
     {
         public EmergencyServiceImpl(Coordinates targetCoordinates, Coordinates baseCoordinates)
         {

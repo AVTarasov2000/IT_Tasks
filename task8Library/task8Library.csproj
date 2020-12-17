@@ -41,7 +41,7 @@
         <Compile Include="Coordinates.cs" />
         <Compile Include="Driver.cs" />
         <Compile Include="EmergencyServiceToNearest.cs" />
-        <Compile Include="EmergencyService.cs" />
+        <Compile Include="IEmergencyService.cs" />
         <Compile Include="EmergencyServiceImpl.cs" />
         <Compile Include="EmergencyServiceSlow.cs" />
         <Compile Include="Emulation.cs" />
